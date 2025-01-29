@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.max-container{
+  @apply mx-auto max-w-[1440px];
+}
+.our-tailored-class {
+  @apply border border-black py-3 lg:py-[6px]  my-5 h-[45px] text-black lg:text-lg text-base font-semibold leading-[18px] tracking-wider text-center uppercase font-Barlow;
+}
+
+.navbar-bg {
+  background-color: #ffffff;
+}
+
+.bse-bg {
+  background-color: rgba(12, 1, 61, 1);
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+
+}
+
+.animate-slide {
+  animation: slide 20s infinite linear;
+}
+
+.marquee {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  user-select: none;
+
+}
+
+
+
+@keyframes scrollX {
+  from {
+    left: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
+.marqueeGroup {
+  animation: scrollX 30s linear infinite;
+  animation-delay: -3s;
+  display: flex;
+
+}
+
+
+.imageGroup {
+  display: grid;
+  place-items: center;
+  width: clamp(10rem, 1rem + 40vmin, 12rem);
+  padding: calc(clamp(10rem, 1rem + 30vmin, 30rem) / 20);
+}
+
+
+
+@media (max-width:480px) {
+
+
+  .imageGroup {
+    width: clamp(10rem, 1rem + 30vmin, 2rem);
+    padding: -20px 0 0 0;
+
+  }
+
+  .marquee {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    user-select: none;
+
+  }
+
+}
+
+/* styles.css */
+.btn-dropdown {
+  padding: .7rem 1rem;
+  background-color: #ffffff;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  height: 50px;
+  padding-left: 40px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: bold;
+  color: #B80001;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.dropdown {
+  position: relative;
+  left: 0;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  width: 100%;
+  /* z-index: 10; */
+  font-family: 'Barlow', sans-serif;
+  font-weight: bold;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 18px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+
+}
+
+.item {
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+  height: 45px;
+
+}
+
+.item:hover {
+  background-color: rgb(233, 231, 231);
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+/* Add this to your CSS */
+.dropdown-icon {
+  position: relative;
+  top: 50%;
+  right: 0.5rem;
+  transform: translateY(-50%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.rotate {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+
+
+@media (max-width:480px) {
+  .btn-dropdown {
+    padding: .7rem 12px;
+    font-size: 16px;
+    height: 44px;
+  }
+
+}
+
+/* Add this to your CSS */
+.galaryBox {
+  /* ... your existing styles */
+  transition: all 0.3s ease-in-out;
+  /* Adjust the duration and easing as needed */
+}
+
+
+.rightArrow {
+  transform: rotate(270deg);
+}
+
+.leftArrow {
+  transform: rotate(90deg);
+}
+
+.testimonial-container {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+}
+
+.testimonial-item {
+  flex-shrink: 0;
+  width: 50%;
+  /* Two items per row by default */
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+
+
+  .testimonial-item {
+    width: 95.5%;
+    /* Single item per row on mobile */
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1025px) {
+
+
+  .testimonial-item {
+    width: 70%;
+    margin-right: 230px;
+    
+  }
+}
+
+.header-bg {
+  background-image: url("./assets/images/headerImage.png");
+  background-size: cover;
+}
+
+.link:hover {
+  transition: all 0.3s ease;
+  background: rgba(28, 28, 28);
+}
+
+.link:hover h2 {
+  font-size: 20px;
+}
+
+/* CustomDropdown.css */
+
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-dropdown select {
+  display: none;
+}
+
+.dropdown-icon {
+  position: absolute;
+  top: 50%;
+  right: 2px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background: url('path/to/your/icon.png') no-repeat center center;
+  background-size: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.custom-dropdown.open .dropdown-icon {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.active {
+  color: #DA0001;
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.link-item .active {
+  color: #0C013D;
+}
+
+.proClass {
+  appearance: none;
+  background-image: url('./assets/images/down.png');
+  background-repeat: no-repeat;
+  background-position: 21rem;
+  /* transition: all .1s linear; */
+
+}
+
+@media (min-width:1440px) {
+  .proClass {
+    background-position: 22rem;
+  }
+}
+
+
+
+.rotate-image {
+  /* transform: rotate(45deg); You can adjust the rotation angle as needed */
+  background-image: url('./assets/images/up.png');
+  z-index: 100;
+
+}
+
+.optClass {
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+/* customDropdown.css */
+
+/* Style the dropdown options */
+.custom-dropdown-option {
+  background-color: #0000;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: large;
+}
+
+@media (max-width: 380px) {
+  .proClass {
+
+    background-position: 17rem;
+
+  }
+
+}
+
+@media (min-width: 381px) and (max-width: 500px) {
+  .proClass {
+
+    background-position: 19rem;
+
+  }
+
+}
+
+
+@media (min-width: 501px) and (max-width: 535px) {
+  .proClass {
+
+    background-position: 27rem;
+
+  }
+
+}
+@media (min-width: 536px) and (max-width: 700px) {
+  .proClass {
+
+    background-position: 28rem;
+
+  }
+
+}
+
+@media (min-width: 701px) and (max-width: 799px) {
+  .proClass {
+
+    background-position: 38rem;
+
+  }
+
+}
+@media (min-width: 801px) and (max-width: 899px) {
+  .proClass {
+
+    background-position: 42rem;
+
+  }
+
+}
+
+@media (min-width: 900px) and (max-width: 920px) {
+  .proClass {
+
+    background-position: 47rem;
+
+  }
+
+}
+@media (min-width: 921px) and (max-width: 1024px) {
+  .proClass {
+
+    background-position: 14rem;
+
+  }
+
+}
+@media (min-width: 1025px) and (max-width: 1396px) {
+  .proClass {
+
+    background-position: 20rem;
+
+  }
+
+}
+@media (min-width: 1370px) and (max-width: 1550px) {
+  .proClass {
+
+    background-position: 21.2rem;
+
+  }
+
+}
+@media (min-width: 1551px) and (max-width: 1800px) {
+  .proClass {
+
+    background-position: 25rem;
+
+  }
+
+}
+@media (min-width: 1801px) and (max-width: 2100px) {
+  .proClass {
+
+    background-position: 27rem;
+
+  }
+
+}
+
+
+
+@media (min-width: 381px) and (max-width: 500px) {
+  .customImg {
+    width: 100%;
+    height: 172px;
+
+  }
+
+  .customImg-margin {
+    margin-top: 36px;
+  }
+
+}
+
+.active-link {
+  color: #0C013D;
+
+}
+
+
+
+.select-solution select option {
+  background-color: white;
+  border-bottom: 1px solid black;
+  appearance: none;
+  color: black;
+
+}
+
+.select-product select option {
+  background-color: white;
+  border-bottom: 1px solid black;
+  appearance: none;
+  color: black;
+}
+
+.select-industry select option {
+  background-color: white;
+  border-bottom: 1px solid black;
+  appearance: none;
+  color: black;
+
+}
+
+@media (max-width:768px) {
+  .select-solution select option {
+    width: 50%;
+    font-size: 18px;
+
+  }
+}
+
+.customTransition {
+  transition: all 0.2s linear;
+}
+
+.customRotate {
+  transform: rotate(180deg);
+  transition: all .3s ease-in-out;
+}
+
+
+
+
+/* Accordion=------ */
+.accordion {
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.accordion.open .accordion-content {
+  max-height: 1000px;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.accordion-title {
+  flex-grow: 1;
+}
+
+.accordion-icon {
+  font-size: 25px;
+  color: #0C013D;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.accordion.open .accordion-icon {
+  transform: rotate(-180deg);
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.accordion.open .accordion-content {
+  max-height: 1000px;
+}
+
+.list-dots::before {
+  content: "\2022";
+  /* Unicode character for a bullet (•) */
+  margin-right: 8px;
+  /* Adjust the spacing between the bullet and text */
+  text-indent: -10px;
+}
+
+.hide{
+  display: none;
+  visibility: hidden;
+}
+.show{
+  display: block;
+  visibility: visible;
+}
+
+.paraHover > p{
+  font-weight: 400;
+}
+.paraHover > p:hover{
+  font-weight: 600;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+ 
+  /* border: 1px solid #000; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  position: relative;
+}
+
+.popup-close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  cursor: pointer;
+}
+.red-font-color{
+  color: #DA0001;
+  font-weight: 800;
+}
+.blue-font-color{
+  color: #0C013D;
+  font-weight: 800;
+}
+
+/* --------- */
+.extraline{
+  animation: animateLine 0.5s linear;
+}
+
+.Inv-pverViewBg{
+  background: url("./assets/invester/main.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@keyframes animateLine{
+  0% {
+    transform: translateX(-100%);
+    
+  }
+  100% {
+    transform: translateX(0);
+    
+  }
+}
+
+@media (max-width: 480px) {
+  .Inv-pverViewBg{
+    background: url("./assets/invester/main-mobile.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
