@@ -7,10 +7,9 @@
   "scripts": {
     "dev": "vite",
     "generate-sitemap": "node generate-sitemap.js",
-    "build": "npm run generate-sitemap && vite build",
+    "build": "npm run generate-sitemap",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "postbuild": "react-snap"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
