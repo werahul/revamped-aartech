@@ -4,6 +4,7 @@ import Navbar from "../Navbar";
 import Footer from "../Footer";
 import { Link } from "react-router-dom";
 import SlideinBarInvestor from "../../Pages/SlideinBarInvester";
+import { Helmet } from "react-helmet";
 
 const ShReconciliation = () => {
   useEffect(() => {
@@ -12,6 +13,21 @@ const ShReconciliation = () => {
 
   return (
     <div>
+      <Helmet>
+        <meta
+          name="title"
+          content="Share Reconciliation Audit"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="Accurate audits ensuring transparency in shareholding."
+        />
+        <link
+          rel="canonical"
+          href="https://aartechsolonics.com/investors/shareholders-information-corporate-reconciliation-of-share-capital-audit-report"
+        />
+      </Helmet>
       <Navbar />
       <SlideinBarInvestor />
       {/*<div className="relative lg:mt-[10.5rem] mt-[4.4rem]">

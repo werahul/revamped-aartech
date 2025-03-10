@@ -3,19 +3,18 @@ import { Navbar, BreadCrumbs, Footer, SlideInBar } from "../Components";
 import { product } from "../constants";
 import { Link } from "react-router-dom";
 // import { breadHome } from "../assets/images";
-import Aos from "aos"
-import "aos/dist/aos.css"
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { Helmet } from "react-helmet";
 
 const Product = ({ title, image, desc, path }) => {
   useEffect(() => {
-    window.scrollTo(0, 0); 
-    Aos.init({duration: 2000});
+    window.scrollTo(0, 0);
+    Aos.init({ duration: 2000 });
   }, []); // Empty dependency array ensures the effect runs only once
   return (
-    <div >
+    <div>
       <Link to={path}>
-
-
         <h3 className="text-[#B80001] font-bold font-Barlow text-[20px] lg:text-[24px] tracking-wide">
           {title}
         </h3>
@@ -29,18 +28,32 @@ const Product = ({ title, image, desc, path }) => {
 };
 
 const Products = () => {
-  {/*const breadcrumbs = [
+  {
+    /*const breadcrumbs = [
     {
       url: "/",
       image: breadHome,
     },
     { displayName: "ALL PRODUCTS", url: "/products" },
-  ];*/}
+  ];*/
+  }
   return (
     <div>
+      <Helmet>
+        <meta
+          name="title"
+          content="Innovative Products, Smart Solutions"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="Explore advanced products for power, automation, and technology-driven efficiency."
+        />
+        <link rel="canonical" href="https://aartechsolonics.com/products" />
+      </Helmet>
       <Navbar />
       <SlideInBar />
-      <div className="max-container px-5 pt-[20px] lg:pt-[88px] lg:px-20 2xl:px-[120px] sm:px-10">
+      <div className="max-container px-5 pt-[20px] lg:pt-[88px] lg:px-20  sm:px-10">
         {/*<div className="font-Barlow font-[500] mt-[24px] mb-[24px] lg:mt-[28px] lg:mb-[18px] text-[#0C013D]">
           <BreadCrumbs breadcrumbs={breadcrumbs} />
   </div>*/}

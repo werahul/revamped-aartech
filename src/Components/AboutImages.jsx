@@ -111,18 +111,18 @@ const AboutImages = () => {
 
 
       <div className="">
-        <div className={`section1 h-[30px] text-center text-foot-blue lg:text-xl font-Barlow text-base px-5 lg:font-normal font-medium leading-7 mt-2 lg:mb-0 -mb-14 ${currentImageIndex === 0 ? '' : 'hidden'}`}>Established as a corporation</div>
-        <div className={`section2 h-[30px] text-center text-foot-blue lg:text-xl font-Barlow text-base px-10 lg:font-normal font-medium leading-7 mt-2 lg:mb-0 -mb-14 ${currentImageIndex === 1 ? '' : 'hidden'}`}>Initiated Mandideep Unit Operations</div>
-        <div className={`section3 h-[30px] text-center text-foot-blue lg:text-xl font-Barlow text-base px-10 lg:font-normal font-medium leading-7 mt-2 lg:mb-0 -mb-14 ${currentImageIndex === 2 ? '' : 'hidden'}`}>Attained Public Limited Company status</div>
-        <div className={`section4 h-[30px] text-center text-foot-blue lg:text-xl font-Barlow text-base px-10 lg:font-normal font-medium leading-7 mt-2 lg:mb-0 -mb-14 ${currentImageIndex === 3 ? '' : 'hidden'}`}>Expanded to Parwanoo Unit Operations</div>
-        <div className={`section5 h-[30px] text-center text-foot-blue lg:text-xl font-Barlow text-base px-10 lg:font-normal font-medium leading-7 mt-2 lg:mb-0 -mb-14 ${currentImageIndex === 4 ? '' : 'hidden'}`}>Executed a 1:6 Bonus Issue</div>
-        <div className={`section6 h-[30px] text-center text-foot-blue lg:text-xl font-Barlow text-base px-10 lg:font-normal font-medium leading-7 mt-2 lg:mb-0 -mb-8 ${currentImageIndex === 5 ? '' : 'hidden'}`}>Established AAR Centre for Techno-entrepreneurship, an DSIR approved R&D lab</div>
-        <div className={`section7 h-[30px] text-center text-foot-blue lg:text-xl font-Barlow text-base px-10 lg:font-normal font-medium leading-7 mt-2 lg:mb-0 -mb-14 ${currentImageIndex === 6 ? '' : 'hidden'}`}>Founded AIC - Aartech Solonics Pvt Ltd and Faradigm Ultracapacitors Pvt Ltd</div>
-        <div className={`section8 h-[30px] text-center text-foot-blue lg:text-xl font-Barlow text-base px-10 lg:font-normal font-medium leading-7 mt-2 lg:mb-0 -mb-14 ${currentImageIndex === 7 ? '' : 'hidden'}`}>Successfully went public through an IPO
+        <div className={`section1 h-[30px] text-center text-foot-blue lg:text-xl font-Barlow text-base px-5 lg:font-normal font-medium lg:leading-7 leading-5 lg:mt-2 mt-4 lg:mb-0 -mb-14 ${currentImageIndex === 0 ? '' : 'hidden'}`}>Established as a corporation</div>
+        <div className={`section2 h-[30px] text-center text-foot-blue lg:text-xl font-Barlow text-base px-10 lg:font-normal font-medium lg:leading-7 leading-5 lg:mt-2 mt-4 lg:mb-0 -mb-14 ${currentImageIndex === 1 ? '' : 'hidden'}`}>Initiated Mandideep Unit Operations</div>
+        <div className={`section3 h-[30px] text-center text-foot-blue lg:text-xl font-Barlow text-base px-10 lg:font-normal font-medium lg:leading-7 leading-5 lg:mt-2 mt-4 lg:mb-0 -mb-14 ${currentImageIndex === 2 ? '' : 'hidden'}`}>Attained Public Limited Company status</div>
+        <div className={`section4 h-[30px] text-center text-foot-blue lg:text-xl font-Barlow text-base px-10 lg:font-normal font-medium lg:leading-7 leading-5 lg:mt-2 mt-4 lg:mb-0 -mb-14 ${currentImageIndex === 3 ? '' : 'hidden'}`}>Expanded to Parwanoo Unit Operations</div>
+        <div className={`section5 h-[30px] text-center text-foot-blue lg:text-xl font-Barlow text-base px-10 lg:font-normal font-medium lg:leading-7 leading-5 lg:mt-2 mt-4 lg:mb-0 -mb-14 ${currentImageIndex === 4 ? '' : 'hidden'}`}>Executed a 1:6 Bonus Issue</div>
+        <div className={`section6 h-[30px] text-center text-foot-blue lg:text-xl font-Barlow text-base px-10 lg:font-normal font-medium lg:leading-7 leading-5 lg:mt-2 mt-4 lg:mb-0 -mb-8 ${currentImageIndex === 5 ? '' : 'hidden'}`}>Established AAR Centre for Techno-entrepreneurship, an DSIR approved R&D lab</div>
+        <div className={`section7 h-[30px] text-center text-foot-blue lg:text-xl font-Barlow text-base px-10 lg:font-normal font-medium lg:leading-7 leading-5 lg:mt-2 mt-4 lg:mb-0 -mb-14 ${currentImageIndex === 6 ? '' : 'hidden'}`}>Founded AIC - Aartech Solonics Pvt Ltd and Faradigm Ultracapacitors Pvt Ltd</div>
+        <div className={`section8 h-[30px] text-center text-foot-blue lg:text-xl font-Barlow text-base px-10 lg:font-normal font-medium lg:leading-7 leading-5 lg:mt-2 mt-4 lg:mb-0 -mb-14 ${currentImageIndex === 7 ? '' : 'hidden'}`}>Successfully went public through an IPO
         </div>
-        <div className={`section9 h-[30px] text-center text-foot-blue lg:text-xl font-Barlow text-base px-10 lg:font-normal font-medium leading-7 mt-2 lg:mb-0 -mb-14 ${currentImageIndex === 8 ? '' : 'hidden'}`}>Winner of IDEX
+        <div className={`section9 h-[30px] text-center text-foot-blue lg:text-xl font-Barlow text-base px-10 lg:font-normal font-medium lg:leading-7 leading-5 lg:mt-2 mt-4 lg:mb-0 -mb-14 ${currentImageIndex === 8 ? '' : 'hidden'}`}>Winner of IDEX
         </div>
-        <div className={`section10 h-[30px] text-center text-foot-blue lg:text-xl font-Barlow text-base px-10 lg:font-normal font-medium leading-7 mt-2 lg:mb-0 -mb-14 ${currentImageIndex === 9 ? '' : 'hidden'}`}>Main Board Listing: Flag bearers of Aartech
+        <div className={`section10 h-[30px] text-center text-foot-blue lg:text-xl font-Barlow text-base px-10 lg:font-normal font-medium lg:leading-7 leading-5 lg:mt-2 mt-4 lg:mb-0 -mb-14 ${currentImageIndex === 9 ? '' : 'hidden'}`}>Main Board Listing: Flag bearers of Aartech
         </div>
       </div>
     </div>

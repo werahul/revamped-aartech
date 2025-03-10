@@ -4,10 +4,26 @@ import Navbar from "../Navbar";
 import Footer from "../Footer";
 import SlideinBarInvester from "../../Pages/SlideinBarInvester";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const Disclosures = () => {
   return (
     <div>
+       <Helmet>
+            <meta
+              name="title"
+              content="Essential Disclosures"
+              data-react-helmet="true"
+            />
+            <meta
+              name="description"
+              content="Transparent policies and reports for informed stakeholders."
+            />
+            <link
+              rel="canonical"
+              href="https://aartechsolonics.com/investors/disclosures"
+            />
+          </Helmet>
       <Navbar />
       <SlideinBarInvester />
       {/*<div className="relative lg:mt-[10.5rem] mt-[4.4rem]">
@@ -17,9 +33,9 @@ const Disclosures = () => {
     </div>*/}
       <div className=" Inv-pverViewBg h-auto lg:mt-[10.5rem] mt-[4.4rem]">
         <div className="max-container lg:px-20 sm:px-10 px-5 ">
-          <div class="flex items-end text-foot-blue w-full lg:h-[250px] h-[150px] pb-[48px]  lg:text-4xl text-[28px] font-normal font-antonio leading-9">
+          <h1 class="flex items-end text-foot-blue w-full lg:h-[250px] h-[150px] pb-[48px]  lg:text-4xl text-[28px] font-normal font-antonio leading-9">
             Disclosures
-          </div>
+          </h1>
         </div>
       </div>
 

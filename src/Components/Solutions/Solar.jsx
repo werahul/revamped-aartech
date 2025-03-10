@@ -6,6 +6,7 @@ import { bestCase, relayPannels, kra, incinerator, wtc, solar, clip2 } from '../
 
 import { ImageSelect } from "../ImageSelector";
 import { solar1, solar2, solar3, solar4, solar5 } from '../../assets/solutionImages'
+import { Helmet } from 'react-helmet';
 
 
 const Solar = () => {
@@ -45,12 +46,27 @@ const Solar = () => {
 
     return (
         <div>
+        <Helmet>
+        <meta
+          name="title"
+          content="Solar Design Engineering"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="Custom solar solutions for maximum energy efficiency."
+        />
+        <link
+          rel="canonical"
+          href="https://aartechsolonics.com/solutions/solar-design-engineering"
+        />
+      </Helmet>
             <Navbar />
             <SlideInBar/>
-            <div className="max-container 2xl:px-[120px] lg:pt-28 lg:px-20   px-5 pt-20 lg:mt-0 mt-5 sm:px-10">
+            <div className="max-container  lg:pt-28 lg:px-20   px-5 pt-20 lg:mt-0 mt-5 sm:px-10">
 
-                <div className="lg:hidden text-black text-[28px] font-normal font-antonio ">Solar Design, Engineering & Consultancy Services
-                </div>
+                <h1 className="lg:hidden text-black text-[28px] font-normal font-antonio ">Solar Design, Engineering & Consultancy Services
+                </h1>
                 <div className="lg:hidden text-foot-blue text-lg font-bold font-Barlow tracking-wider mb-2 mt-1">SOLUTIONS</div>
 
                 <div className="lg:flex lg:mt-20">

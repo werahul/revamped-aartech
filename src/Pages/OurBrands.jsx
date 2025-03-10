@@ -3,6 +3,7 @@ import { blankWhite, brand1, brand2, brand3 } from "../assets/images";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const OurBrands = () => {
   useEffect(() => {
@@ -10,11 +11,23 @@ const OurBrands = () => {
   }, []); // Empty dependency array ensures the effect runs only once
   return (
     <>
+      <Helmet>
+        <meta
+          name="title"
+          content="Trusted Brands, Proven Excellence"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="Discover top global brands delivering innovation in power, automation, and security."
+        />
+        <link rel="canonical" href="https://aartechsolonics.com/brands" />
+      </Helmet>
       <Navbar />
-      <div className="max-container fullPage 2xl:px-[120px] lg:px-20 lg:py-[80px] lg:mt-[4rem] pt-[6rem] w-[100%] p-4 sm:px-10">
-        <div className="title text-4xl text-box-red font-normal font-antonio lg:mb-8 mb-6 mt-[14px]">
+      <div className="max-container fullPage lg:px-20 lg:py-[80px] lg:mt-[4rem] pt-[6rem] w-[100%] p-4 sm:px-10">
+        <h1 className="title text-4xl text-box-red font-normal font-antonio lg:mb-8 mb-6 mt-[14px]">
           Our Brands
-        </div>
+        </h1>
 
         <div className="brandsSection grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-x-4 lg:gap-y-8 sm:gap-y-4 sm:gap-x-4 gap-y-8 mb-16 ">
           <div className="brandsCard  lg:w-full lg:h-auto  lg:space-y-[23px] space-y-2">
@@ -31,7 +44,7 @@ const OurBrands = () => {
             </div>
           </div>
 
-          <a href="https://faradigm.com/" target="_blank" >
+          <a href="https://faradigm.com/" target="_blank">
             <div className="brandsCard  lg:w-full lg:h-[422px] lg:space-y-[23px] space-y-2">
               <div className="brandImg flex items-center justify-center px-6 lg:py-8  h-[12rem] bg-box-bg lg:h-[229px]">
                 <img src={brand2} alt="brands" />
@@ -48,7 +61,7 @@ const OurBrands = () => {
             </div>
           </a>
 
-          <a href="https://www.bestcase.in/" target="_blank" >
+          <a href="https://www.bestcase.in/" target="_blank">
             <div className="brandsCard  lg:w-full lg:h-[422px] lg:space-y-[23px] space-y-2">
               <div className="brandImg flex items-center justify-center px-6 py-8 h-[12rem] bg-box-bg lg:h-[229px]">
                 <img src={brand3} alt="brands" />
@@ -66,7 +79,7 @@ const OurBrands = () => {
             </div>
           </a>
 
-          <div className="brandsCard  lg:w-full lg:h-[422px] lg:space-y-[23px] space-y-2">
+          {/*<div className="brandsCard  lg:w-full lg:h-[422px] lg:space-y-[23px] space-y-2">
             <div className="brandImg flex items-center justify-center px-6 py-8 h-[12rem] bg-box-bg lg:h-[229px]">
               <img src={blankWhite} alt="brands" className="w-10" />
             </div>
@@ -79,7 +92,7 @@ const OurBrands = () => {
                 voluptates.
               </h4>
             </div>
-          </div>
+          </div>*/}
         </div>
       </div>
       <Footer />

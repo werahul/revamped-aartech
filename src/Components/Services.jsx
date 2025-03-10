@@ -25,10 +25,10 @@ const Services = () => {
                             <div className="lg:text-[20px] text-[16px] text-foot-blue font-bold font-Barlow">Unit#1: Mandideep, M.P. :</div>
                             <ul className="lg:w-[495px]  list-disc ml-8">
                                 <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>Located in Mandideep, 20 kms from Bhopal</li>
-                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>   Occupies 12000 sq. meters of land</li>
-                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>  Includes 1500 sq. meters of built-up area</li>
-                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>   Houses machinery, equipment, and SSD warehouse</li>
-                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>   Supports various product lines</li>
+                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>Occupies 12000 sq. meters of land</li>
+                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>Includes 1500 sq. meters of built-up area</li>
+                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>Houses machinery, equipment, and SSD warehouse</li>
+                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>Supports various product lines</li>
                             </ul>
                         </div>
 
@@ -50,8 +50,7 @@ const Services = () => {
                             <div className="lg:text-[20px] text-[16px] text-foot-blue  font-bold font-Barlow">Unit#2: Parwanoo, H.P. : </div>
                             <ul className="lg:w-[495px] list-disc ml-8 ">
                                 <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>Situated in Parwanoo, Himachal Pradesh</li>
-                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>Supports manufacturing of specific products:</li>
-                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>BTS 2000</li>
+                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>Supports manufacturing of specific products: BTS 2000</li>
                                 <li className='lg:text-[20px]  text-[16px] text-foot-blue font-normal font-Barlow'>LT microprocessor-based fast bus transfer system SSD</li>
                             </ul>
                         </div>
@@ -62,8 +61,7 @@ const Services = () => {
                             </div>
                             <ul className="lg:w-[450px] list-disc ml-8">
                                 <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>Customized testing arrangements for diverse requirements</li>
-                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>Factory Acceptance Test (FAT) protocol developed during design.
-                                </li>
+                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>Factory Acceptance Test (FAT) protocol developed during design</li>
 
                             </ul>
                         </div>
@@ -84,18 +82,18 @@ const Services = () => {
                         <div className="">
                             <div className="lg:text-[20px] text-[16px] text-foot-blue font-bold font-Barlow">SSD Commissioning Support : </div>
                             <ul className="w-auto list-disc ml-8 ">
-                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>Every SSD has a dedicated team of highly qualified and experienced personnel.</li>
-                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>Assistance in commissioning system solutions at the customer's location.</li>
-                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>Swift and responsive support provided.</li>
-                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>Comprehensive on-site training and orientation delivered as needed.</li>
+                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>Every SSD has a dedicated team of highly qualified and experienced personnel</li>
+                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>Assistance in commissioning system solutions at the customer's location</li>
+                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>Swift and responsive support provided</li>
+                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>Comprehensive on-site training and orientation delivered as needed</li>
 
                             </ul>
                         </div>
                         <div className=" lg:mt-6 mt-4">
                             <div className="lg:text-[20px] text-[16px] text-foot-blue font-bold font-Barlow">Customer Feedback :  </div>
                             <ul className="w-auto list-disc ml-8 ">
-                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>Insights from commissioning activities influence on design and engineering efforts.</li>
-                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>Used to enhance system solutions based on real-world experience.</li>
+                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>Insights from commissioning activities influence on design and engineering efforts</li>
+                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>Used to enhance system solutions based on real-world experience</li>
                             </ul>
                         </div>
                     </div>
@@ -124,8 +122,7 @@ const Services = () => {
                             <ul className="lg:w-auto list-disc ml-8">
                                 <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>Utilizes the latest engineering software tools</li>
                                 <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>Best practices and applicable standards guide the process</li>
-                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>We emphasize innovation & customer feedback
-                                </li>
+                                <li className='lg:text-[20px] text-[16px] text-foot-blue font-normal font-Barlow'>We emphasize innovation & customer feedback</li>
                             </ul>
                         </div>
 

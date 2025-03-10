@@ -1,9 +1,25 @@
 import React from "react";
 import { Navbar, Footer } from "../Components";
+import { Helmet } from "react-helmet";
 
 const Cookie = () => {
   return (
     <div>
+      <Helmet>
+        <meta
+          name="title"
+          content="Cookie Policy & Usage Details"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="Learn how we use cookies to enhance your experience and protect your privacy online."
+        />
+        <link
+          rel="canonical"
+          href="https://aartechsolonics.com/cookies"
+        />
+      </Helmet>
       <Navbar />
       <div className="max-container mt-[120px] lg:mt-40 mb-20 lg:px-20 px-5">
         <h1 className="font-antonio text-[28px] lg:text-[36px]   text-[#B80001] ">

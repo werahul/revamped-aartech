@@ -4,6 +4,7 @@ import Navbar from "../Navbar";
 import Footer from "../Footer";
 import { Link } from "react-router-dom";
 import SlideinBarInvestor from "../../Pages/SlideinBarInvester";
+import { Helmet } from "react-helmet";
 
 const FRAuditYearlyReport = () => {
   useEffect(() => {
@@ -11,6 +12,21 @@ const FRAuditYearlyReport = () => {
   }, []);
   return (
     <div>
+      <Helmet>
+        <meta
+          name="title"
+          content="Annual Audit Reports"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="Yearly financial audits for complete transparency."
+        />
+        <link
+          rel="canonical"
+          href="https://aartechsolonics.com/investors/financial-reports-audit-yearly-report"
+        />
+      </Helmet>
       <Navbar />
       <SlideinBarInvestor />
       {/*<div className="relative lg:mt-[10.5rem] mt-[4.4rem]">
@@ -20,9 +36,9 @@ const FRAuditYearlyReport = () => {
     </div>*/}
       <div className=" Inv-pverViewBg h-auto lg:mt-[10.5rem] mt-[4.4rem]">
         <div className="max-container lg:px-20 sm:px-10 px-5 ">
-          <div class="flex items-end text-foot-blue w-full lg:h-[250px] h-[150px] pb-[48px]  lg:text-4xl text-[28px] font-normal font-antonio leading-9">
+          <h1 class="flex items-end text-foot-blue w-full lg:h-[250px] h-[150px] pb-[48px]  lg:text-4xl text-[28px] font-normal font-antonio leading-9">
             Financial <br className="lg:hidden block" /> Reports
-          </div>
+          </h1>
         </div>
       </div>
       <div className="max-container  lg:py-20 lg:px-20  lg:pt-9 px-5 py-10  lg:mt-0 mt-5 sm:px-10">

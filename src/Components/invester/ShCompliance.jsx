@@ -5,6 +5,7 @@ import Footer from "../Footer";
 import { Link } from "react-router-dom";
 import SlideinBar from "../../Pages/SlideInBar";
 import SlideinBarInvestor from "../../Pages/SlideinBarInvester";
+import { Helmet } from "react-helmet";
 
 const ShCompliance = () => {
   useEffect(() => {
@@ -13,6 +14,21 @@ const ShCompliance = () => {
 
   return (
     <div>
+      <Helmet>
+        <meta
+          name="title"
+          content="Compliance Certificates"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="Verified compliance documents for shareholder assurance."
+        />
+        <link
+          rel="canonical"
+          href="https://aartechsolonics.com/investors/shareholders-information-compliance-certificates"
+        />
+      </Helmet>
       <Navbar />
       <SlideinBarInvestor />
       {/*<div className="relative lg:mt-[10.5rem] mt-[4.4rem]">

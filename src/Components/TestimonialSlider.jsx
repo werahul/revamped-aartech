@@ -40,7 +40,8 @@ const TestimonialSlider = ({ testimonials }) => {
 
   return (
     <div className="relative w-full bg-[#0C013D] lg:py-20 py-10 overflow-hidden">
-      <h2 className="text-[36px] font-antonio mb-[36px] text-white px-5 lg:px-20 2xl:px-[120px] font-normal">
+    <div className="max-container">
+      <h2 className="text-[36px] font-antonio mb-[36px] text-white px-5 lg:px-20 2xl:px-[80px] font-normal">
         Testimonials
       </h2>
       <div
@@ -64,6 +65,7 @@ const TestimonialSlider = ({ testimonials }) => {
           />
         ))}
       </div>
+    </div>
     </div>
   );
 };

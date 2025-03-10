@@ -6,6 +6,7 @@ import { bestCase, relayPannels, kra, incinerator, wtc, solar, clip2 } from '../
 
 import { ImageSelect } from "../ImageSelector";
 import { Fault1, Fault2, Fault3, Fault4, Fault5 } from '../../assets/solutionImages'
+import { Helmet } from 'react-helmet';
 
 
 const Fault = () => {
@@ -42,12 +43,27 @@ const Fault = () => {
 
     return (
         <div>
+        <Helmet>
+        <meta
+          name="title"
+          content="Fault Current Limiting Tech"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="Advanced systems to minimize electrical faults and risks."
+        />
+        <link
+          rel="canonical"
+          href="https://aartechsolonics.com/solutions/fault-current-limiting"
+        />
+      </Helmet>
             <Navbar />
             <SlideInBar/>
-            <div className="max-container 2xl:px-[120px] lg:pt-28 lg:px-20   px-5 pt-20 lg:mt-0 mt-5 sm:px-10">
+            <div className="max-container  lg:pt-28 lg:px-20   px-5 pt-20 lg:mt-0 mt-5 sm:px-10">
 
-                <div className="lg:hidden text-black text-[28px] font-normal font-antonio ">Fault Current Limiting
-                </div>
+                <h1 className="lg:hidden text-black text-[28px] font-normal font-antonio ">Fault Current Limiting
+                </h1>
                 <div className="lg:hidden text-foot-blue text-lg font-bold font-Barlow tracking-wide mb-2 mt-1">SOLUTIONS</div>
 
                 <div className="lg:flex lg:mt-20">

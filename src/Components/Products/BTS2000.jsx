@@ -6,7 +6,7 @@ import { Accordion, Accordion2, Accordion3 } from "../../Components";
 import { CustomerLogos2 } from "../../Components";
 
 import { ImageSelect } from "../ImageSelector";
-import { bts1, bts2, bts3, bts4 } from "../../assets/proImages";
+import { bts1, bts2, bts3, bts4, bts5 } from "../../assets/proImages";
 import {
   adani,
   bhel,
@@ -21,6 +21,7 @@ import {
   ntpc,
 } from "../../assets/WorkBlackLogos";
 import { CustomWorkPages } from "../AutoScroll";
+import { Helmet } from "react-helmet";
 
 const BTS2000 = () => {
   useEffect(() => {
@@ -28,7 +29,7 @@ const BTS2000 = () => {
   }, []); // Empty dependency array ensures the effect runs only
 
   const [selectedTag, setSelectedTag] = useState("tag1");
-  const images = [bts1, bts2, bts3, bts4, bts1];
+  const images = [bts1, bts2, bts3, bts4, bts5];
 
   const tagContents = {
     tag1: "The BTS 2000 Fast Bus Transfer System maintains uninterrupted power in renewable energy setups by swiftly transferring power between sources under safe conditions, ensuring consistent energy generation. This reliability is crucial for optimising energy output and grid stability in renewables.        ",
@@ -59,12 +60,27 @@ const BTS2000 = () => {
   ];
   return (
     <div>
+    <Helmet>
+        <meta
+          name="title"
+          content="BTS 2000: Reliable Power Backup"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="Advanced battery testing system for superior energy reliability."
+        />
+        <link
+          rel="canonical"
+          href="https://aartechsolonics.com/products/BTS-2000"
+        />
+      </Helmet>
       <Navbar />
       <SlideInBar/>
-      <div className="max-container 2xl:px-[120px] lg:py-20 lg:px-20  lg:pt-28 pt-20 px-5 py-10 lg:mt-0 mt-5 sm:px-10">
-        <div className="lg:hidden text-black text-[28px] font-normal font-antonio ">
+      <div className="max-container  lg:py-20 lg:px-20  lg:pt-28 pt-20 px-5 py-10 lg:mt-0 mt-5 sm:px-10">
+        <h1 className="lg:hidden text-black text-[28px] font-normal font-antonio ">
           BTS 2000 Fast Bus Transfer System
-        </div>
+        </h1>
         <div className="lg:hidden text-foot-blue text-lg font-bold font-Barlow tracking-wide mb-2 mt-1">
           PRODUCTS
         </div>

@@ -3,10 +3,26 @@ import { main, mainMobile } from "../../assets/invester";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import SlideinBarInvester from "../../Pages/SlideinBarInvester";
+import { Helmet } from "react-helmet";
 
 const Downloads = () => {
   return (
     <div>
+      <Helmet>
+        <meta
+          name="title"
+          content="Investor Downloads"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="Access key reports, policies, and financial statements easily."
+        />
+        <link
+          rel="canonical"
+          href="https://aartechsolonics.com/investors/downloads"
+        />
+      </Helmet>
       <Navbar />
       <SlideinBarInvester />
       {/*<div className="relative lg:mt-[10.5rem] mt-[4.4rem]">
@@ -16,9 +32,9 @@ const Downloads = () => {
     </div>*/}
       <div className=" Inv-pverViewBg h-auto lg:mt-[10.5rem] mt-[4.4rem]">
         <div className="max-container lg:px-20 sm:px-10 px-5 ">
-          <div class="flex items-end text-foot-blue w-full lg:h-[250px] h-[150px] pb-[48px]  lg:text-4xl text-[28px] font-normal font-antonio leading-9">
+          <h1 class="flex items-end text-foot-blue w-full lg:h-[250px] h-[150px] pb-[48px]  lg:text-4xl text-[28px] font-normal font-antonio leading-9">
             Downloads
-          </div>
+          </h1>
         </div>
       </div>
       <div className="max-container lg:py-20 lg:px-20  lg:pt-14 px-5 py-10  lg:mt-0 mt-5 sm:px-10">

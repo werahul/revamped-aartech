@@ -42,6 +42,7 @@ import { CustomWorkPages } from "../Components/AutoScroll";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Helmet } from "react-helmet";
 
 const peopleData = [
   {
@@ -114,16 +115,16 @@ const peopleData = [
     linkedInIcon: linkedIcon,
     link: "https://www.linkedin.com/in/shailendra-singh-raghuvanshi-207971126/",
   },
-  {
-    name: "Nitisha Tiwari",
-    role: "MIDDLE MANAGEMENT EXECUTIVE",
-    description:
-      "She is a dedicated professional with extensive experience in technical sales, marketing, programming, engineering, and customer support. With a robust background in overseeing BTS divisions and ultra capacitors, she bring a unique fusion of skills for exceptional outcomes. Engineering Graduate, 16+ years at Aartech, 16+ years total experience.",
-    image: abNitisha2,
-    Mimage: mNitisha,
-    linkedInIcon: linkedIcon,
-    link: "https://www.linkedin.com/in/nitisha-tiwari-83006321",
-  },
+  // {
+  //   name: "Nitisha Tiwari",
+  //   role: "MIDDLE MANAGEMENT EXECUTIVE",
+  //   description:
+  //     "She is a dedicated professional with extensive experience in technical sales, marketing, programming, engineering, and customer support. With a robust background in overseeing BTS divisions and ultra capacitors, she bring a unique fusion of skills for exceptional outcomes. Engineering Graduate, 16+ years at Aartech, 16+ years total experience.",
+  //   image: abNitisha2,
+  //   Mimage: mNitisha,
+  //   linkedInIcon: linkedIcon,
+  //   link: "https://www.linkedin.com/in/nitisha-tiwari-83006321",
+  // },
   {
     name: "Sanjeev Kumar",
     role: "MIDDLE MANAGEMENT EXECUTIVE",
@@ -144,16 +145,16 @@ const peopleData = [
     linkedInIcon: linkedIcon,
     link: "https://www.linkedin.com/in/wajid-siddiqui-b0860a37",
   },
-  {
-    name: "Jitender Chauhan",
-    role: "MIDDLE MANAGEMENT EXECUTIVE",
-    description:
-      "He plays a pivotal role by seamlessly orchestrating various aspects of the CRP segment, including production, quality control, sales, and purchasing. His approach extends across the entire value chain, ensuring efficient and cohesive operations. As an Engineering Graduate, he embodies the essence of integrated success within the organization.",
-    image: abJitendra,
-    Mimage: mJitendra,
-    linkedInIcon: linkedIcon,
-    link: "https://www.linkedin.com/in/jitendra-chauhan-b62b7656",
-  },
+  // {
+  //   name: "Jitender Chauhan",
+  //   role: "MIDDLE MANAGEMENT EXECUTIVE",
+  //   description:
+  //     "He plays a pivotal role by seamlessly orchestrating various aspects of the CRP segment, including production, quality control, sales, and purchasing. His approach extends across the entire value chain, ensuring efficient and cohesive operations. As an Engineering Graduate, he embodies the essence of integrated success within the organization.",
+  //   image: abJitendra,
+  //   Mimage: mJitendra,
+  //   linkedInIcon: linkedIcon,
+  //   link: "https://www.linkedin.com/in/jitendra-chauhan-b62b7656",
+  // },
   {
     name: "K R Tanuj Reddy",
     role: "Company Secretary & Compliance Officer",
@@ -161,9 +162,8 @@ const peopleData = [
       "Holding an LLB and a Master's in Commerce from Barkatullah University, he's a member of the Institute of Company Secretaries of India. With 9+ years of experience in Corporate Governance, Listing Regulations, FEMA, ESOPs, Policy framework, Inspection, and Investigations, he leads Governance, Compliance, and Secretarial functions to ensure legal compliance.",
     image: abTanuj,
     Mimage: mTanuj,
-    linkedInIcon: "",
-    link: "",
-    id: 10,
+    linkedInIcon: linkedIcon,
+    link: "https://www.linkedin.com/in/tanuj-reddy",
   },
 ];
 
@@ -176,17 +176,29 @@ const About = () => {
   const partnerImageSources = [newAbLogo1, newAbLogo2, newAbLogo3, newAbLogo4];
   return (
     <>
+      <Helmet>
+        <meta
+          name="title"
+          content="Pioneering Excellence Since 1989"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="Innovating power, automation, and technology with decades of expertise you can trust."
+        />
+        <link rel="canonical" href="https://aartechsolonics.com/about" />
+      </Helmet>
       <Navbar />
       <div className="max-container">
-        <div className=" 2xl:px-[80px] text-box-red lg:text-4xl text-[28px] font-normal lg:pt-20 leading-9 font-antonio lg:mb-9 lg:mt-20 mt-[120px] lg:ml-10 ml-5 -mb-8 sm:px-10 ">
+        <h1 className=" text-box-red lg:text-4xl text-[28px] font-normal lg:pt-20 leading-9 font-antonio lg:mb-9 lg:mt-20 mt-[120px] lg:ml-10 ml-5 -mb-8 sm:px-10 ">
           Our History
-        </div>
+        </h1>
       </div>
       <AboutImages />
       <div className="bg-foot-blue">
         <div className="max-container h-[325px]  mb-1 lg:mt-14 mt-24 flex flex-col items-center justify-center px-5 py-10 sm:px-10">
           <div className="text-white lg:text-4xl text-[28px] font-normal lg:leading-[48px] leading-[39.20px] text-center font-antonio lg:mb-10 mb-[24px] lg:mt-0 mt-10">
-            Living Passion through Engineering
+            Living Passion Through Engineering
           </div>
           <div className="lg:w-[844px] text-center text-white lg:text-xl text-base lg:px-4 lg:font-semibold font-medium lg:leading-7 leading-snug lg:mb-0 mb-10 font-Barlow ">
             Our team comprises accomplished individuals with a shared passion

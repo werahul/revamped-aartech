@@ -7,6 +7,7 @@ import { ImageSelect } from "../ImageSelector";
 
 import { CustomerLogos2 } from "..";
 import { download } from "../../assets/images";
+import { Helmet } from "react-helmet";
 
 const SolarDesign = () => {
   const images = [solar1, solar2, solar3, solar4, solar5];
@@ -41,13 +42,28 @@ const SolarDesign = () => {
   };
   return (
     <div>
+    <Helmet>
+        <meta
+          name="title"
+          content="Solar Design & Services"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="End-to-end solar solutions for optimized energy performance."
+        />
+        <link
+          rel="canonical"
+          href="https://aartechsolonics.com/products/solar-design-and-services"
+        />
+      </Helmet>
       <Navbar />
       <SlideInBar/>
-      <div className="max-container 2xl:px-[120px] lg:pt-28 lg:px-20  pt-10 px-5 py-20 lg:mt-0 mt-5 sm:px-10">
+      <div className="max-container  lg:pt-28 lg:px-20  pt-10 px-5 py-20 lg:mt-0 mt-5 sm:px-10">
         <div className="flex lg:flex-row flex-col lg:mt-20">
-          <div className="lg:hidden text-black text-[28px] font-normal font-antonio">
+          <h1 className="lg:hidden text-black text-[28px] font-normal font-antonio">
             Solar Design & Engineering  Services
-          </div>
+          </h1>
           <div className="lg:hidden text-foot-blue text-lg font-bold font-Barlow tracking-wide mb-2 mt-1">
             PRODUCTS
           </div>

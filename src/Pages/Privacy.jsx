@@ -1,9 +1,25 @@
 import React from "react";
 import { Navbar, Footer } from "../Components";
+import { Helmet } from "react-helmet";
 
 const Privacy = () => {
   return (
     <div>
+      <Helmet>
+        <meta
+          name="title"
+          content="Your Privacy, Our Priority"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="Read our privacy policy to understand how we protect and use your personal data."
+        />
+        <link
+          rel="canonical"
+          href="https://aartechsolonics.com/privacy-policy"
+        />
+      </Helmet>
       <Navbar />
       <div className="max-container mt-[120px] lg:mt-40 mb-20 lg:px-20 px-5">
         <h1 className="font-antonio text-[28px] lg:text-[36px]   text-[#B80001] ">
@@ -132,9 +148,9 @@ const Privacy = () => {
         </div>
       </div>
       <div className="max-container mb-10 lg:mb-20 lg:px-20 px-5">
-        <h1 className="font-antonio text-[28px] lg:text-[36px] text-[#B80001] ">
+        <h2 className="font-antonio text-[28px] lg:text-[36px] text-[#B80001] ">
           Contact Us
-        </h1>
+        </h2>
         <p className="my-6 lg:mt-9 lg:mb-4 font-Barlow lg:text-[20px]">
           If you have any questions or concerns about this Privacy Policy,
           please contact us at

@@ -1,83 +1,83 @@
 
 
-import DefenceMain from "./DefenceMain.png";
-import Defence1 from "./Defence1.png";
-import Defence2 from "./Defence2.png";
-import Defence3 from "./Defence3.png";
-import Defence4 from "./Defence4.png";
+import DefenceMain from "./DefenceMain.webp";
+import Defence1 from "./Defence1.webp";
+import Defence2 from "./Defence2.webp";
+import Defence3 from "./Defence3.webp";
+import Defence4 from "./Defence4.webp";
 
-import Renew1 from "./Renew1.png";
-import Renew2 from "./Renew2.png";
-import Renew3 from "./Renew3.png";
-import Renew4 from "./Renew4.png";
-import Renew5 from "./Renew5.png";
+import Renew1 from "./Renew1.webp";
+import Renew2 from "./Renew2.webp";
+import Renew3 from "./Renew3.webp";
+import Renew4 from "./Renew4.webp";
+import Renew5 from "./Renew5.webp";
 
-import non1 from "./non1.png";
-import non2 from "./non2.png";
-import non3 from "./non3.png";
-import non4 from "./non4.png";
-import non5 from "./non5.png";
+import non1 from "./non1.webp";
+import non2 from "./non2.webp";
+import non3 from "./non3.webp";
+import non4 from "./non4.webp";
+import non5 from "./non5.webp";
 
-import Power1 from "./Power1.png";
-import Power2 from "./Power2.png";
-import Power3 from "./Power3.png";
-import Power4 from "./Power4.png";
-import Power5 from "./Power5.png";
+import Power1 from "./Power1.webp";
+import Power2 from "./Power2.webp";
+import Power3 from "./Power3.webp";
+import Power4 from "./Power4.webp";
+import Power5 from "./Power5.webp";
 
-import heavy1 from "./heavy1.png";
-import heavy2 from "./heavy2.png";
-import heavy3 from "./heavy3.png";
-import heavy4 from "./heavy4.png";
-import heavy5 from "./heavy5.png";
+import heavy1 from "./heavy1.webp";
+import heavy2 from "./heavy2.webp";
+import heavy3 from "./heavy3.webp";
+import heavy4 from "./heavy4.webp";
+import heavy5 from "./heavy5.webp";
 
-import health1 from "./health1.png";
-import health2 from "./health2.png";
-import health3 from "./health3.png";
-import health4 from "./health4.png";
-import health5 from "./health5.png";
+import health1 from "./health1.webp";
+import health2 from "./health2.webp";
+import health3 from "./health3.webp";
+import health4 from "./health4.webp";
+import health5 from "./health5.webp";
 
-import it1 from "./it1.png";
-import it2 from "./it2.png";
-import it3 from "./it3.png";
-import it4 from "./it4.png";
-import it5 from "./it5.png";
+import it1 from "./it1.webp";
+import it2 from "./it2.webp";
+import it3 from "./it3.webp";
+import it4 from "./it4.webp";
+import it5 from "./it5.webp";
 
-import tran1 from "./tran1.png";
-import tran2 from "./tran2.png";
-import tran3 from "./tran3.png";
-import tran4 from "./tran4.png";
-import tran5 from "./tran5.png";
+import tran1 from "./tran1.webp";
+import tran2 from "./tran2.webp";
+import tran3 from "./tran3.webp";
+import tran4 from "./tran4.webp";
+import tran5 from "./tran5.webp";
 
-import waste1 from "./waste1.png";
-import waste2 from "./waste2.png";
-import waste3 from "./waste3.png";
-import waste4 from "./waste4.png";
-import waste5 from "./waste5.png"
+import waste1 from "./waste1.webp";
+import waste2 from "./waste2.webp";
+import waste3 from "./waste3.webp";
+import waste4 from "./waste4.webp";
+import waste5 from "./waste5.webp"
 ;
-import Load from "./Load.png";
-import fuel1 from "./fuel1.png";
-import solar1design from "./solar1design.png";
-import SWT from "./SWT.png";
-import Ups from "./Ups.png";
-import flywheel from "./flywheel.png";
+import Load from "./Load.webp";
+import fuel1 from "./fuel1.webp";
+import solar1design from "./solar1design.webp";
+import SWT from "./SWT.webp";
+import Ups from "./Ups.webp";
+import flywheel from "./flywheel.webp";
 
-import flywheel1 from "./flywheel1.png";
-import flywheel2 from "./flywheel2.png";
-import flywheel3 from "./flywheel3.png";
-import flywheel4 from "./flywheel4.png";
-import flywheel5 from "./flywheel5.png";
+import flywheel1 from "./flywheel1.webp";
+import flywheel2 from "./flywheel2.webp";
+import flywheel3 from "./flywheel3.webp";
+import flywheel4 from "./flywheel4.webp";
+import flywheel5 from "./flywheel5.webp";
 
-import ac1 from "./ac1.png"
-import blank from "./blank.png"
+import ac1 from "./ac1.webp"
+import blank from "./blank.webp"
 
-import Load1 from "./Load1.png"
-import Load2 from "./Load2.png"
-import Load3 from "./Load3.png"
-import Load4 from "./Load4.png"
-import Load5 from "./Load5.png"
+import Load1 from "./Load1.webp"
+import Load2 from "./Load2.webp"
+import Load3 from "./Load3.webp"
+import Load4 from "./Load4.webp"
+import Load5 from "./Load5.webp"
 
-import fuelcell1 from "./fuelcell1.png";
-import fuelcell2 from "./fuelcell2.png";
+import fuelcell1 from "./fuelcell1.webp";
+import fuelcell2 from "./fuelcell2.webp";
 
 
 

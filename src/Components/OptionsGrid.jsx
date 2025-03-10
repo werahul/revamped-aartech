@@ -183,7 +183,7 @@ const OptionsGrid = () => {
         <div className="select-industry">
           <select
             id="industry-select"
-            className={`proClass border-black border  h-[50px] w-full lg:px-[39px] px-4 lg:text-lg text-base  font-bold text-box-red font-Barlow focus:outline-none ${isRotatedInd ? 'rotate-image' : ''} ${selectedIndustry ? 'selected bg-box-red text-white border-none' : 'text-black bg-white'}`}
+            className={`proClass border-black border  h-[50px] w-full lg:px-[16px] px-4 lg:text-lg text-base  font-bold text-box-red font-Barlow focus:outline-none ${isRotatedInd ? 'rotate-image' : ''} ${selectedIndustry ? 'selected bg-box-red text-white border-none' : 'text-black bg-white'}`}
             onChange={handleIndustryChange}
             onClick={handleDropdownIndClick}
             value={selectedIndustry}
@@ -201,7 +201,7 @@ const OptionsGrid = () => {
         <div className="select-product">
           <select
             id="product-select"
-            className={`proClass border-black border  h-[50px] w-full lg:px-[39px] px-4 lg:text-lg text-base  font-bold text-box-red font-Barlow focus:outline-none ${isRotated ? 'rotate-image' : ''} ${selectedProduct ? 'selected bg-box-red text-white border-none' : 'text-black bg-white'}`}
+            className={`proClass border-black border  h-[50px] w-full lg:px-[16px] px-4 lg:text-lg text-base  font-bold text-box-red font-Barlow focus:outline-none ${isRotated ? 'rotate-image' : ''} ${selectedProduct ? 'selected bg-box-red text-white border-none' : 'text-black bg-white'}`}
             onChange={handleProductChange}
             onClick={handleDropdownClick}
             value={selectedProduct}
@@ -218,7 +218,7 @@ const OptionsGrid = () => {
         <div className={`select-solution custom-select ${selectedSolution ? 'selected bg-box-red text-white ' : ''}`}>
           <select
             id="solution-select"
-            className={`proClass border-black border  h-[50px] w-full lg:px-[39px] px-4 lg:text-lg text-base  font-bold leading-[18px] tracking-wider text-box-red font-Barlow focus:outline-none ${isRotatedSol ? 'rotate-image' : ''} ${selectedSolution ? 'selected bg-box-red text-white border-none' : 'text-black bg-white'}`}
+            className={`proClass border-black border  h-[50px] w-full lg:px-[16px] px-4 lg:text-lg text-base  font-bold leading-[18px] tracking-wider text-box-red font-Barlow focus:outline-none ${isRotatedSol ? 'rotate-image' : ''} ${selectedSolution ? 'selected bg-box-red text-white border-none' : 'text-black bg-white'}`}
             onChange={handleSolutionChange}
             onClick={handleDropdownSolClick}
             value={selectedSolution}

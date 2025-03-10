@@ -4,10 +4,26 @@ import Navbar from "../Navbar";
 import Footer from "../Footer";
 import { Link } from "react-router-dom";
 import SlideinBarInvester from "../../Pages/SlideinBarInvester";
+import { Helmet } from "react-helmet";
 
 const Shareholders = () => {
   return (
     <div>
+    <Helmet>
+        <meta
+          name="title"
+          content="Shareholders’ Info Hub"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="Essential updates and reports for our valued investors."
+        />
+        <link
+          rel="canonical"
+          href="https://aartechsolonics.com/investors/shareholders-information"
+        />
+      </Helmet>
       <Navbar />
       <SlideinBarInvester />
       {/*<div className="relative lg:mt-[10.5rem] mt-[4.4rem]">

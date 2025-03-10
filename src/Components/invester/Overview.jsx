@@ -19,8 +19,11 @@ import {
   mBlank,
   mKshitij,
   mSupriya,
+  chhaya,
+  mChhaya,
 } from "../../assets/invester/overview";
 import SlideinBarInvester from "../../Pages/SlideinBarInvester";
+import { Helmet } from "react-helmet";
 
 function Popup({
   name,
@@ -100,7 +103,8 @@ function Overview() {
       organization: "Aartech Solonics Limited",
       description:
         "Chhaya Anil Raje, a founding member of Aarchtech, brings over 42 years of experience as a qualified chemical scientist. She holds a Master's degree and has excelled academically. As the company's Promoter, Mrs Chhaya Raje has been instrumental in ensuring financial sustainability, prioritising even the smallest stakeholder's interests.",
-      image2: mBlank,
+      image: chhaya,
+      image2: mChhaya,
     },
     {
       id: 1,
@@ -211,6 +215,21 @@ function Overview() {
 
   return (
     <div>
+      <Helmet>
+        <meta
+          name="title"
+          content="Investors Overview"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="A strategic look into our company’s financial standing."
+        />
+        <link
+          rel="canonical"
+          href="https://aartechsolonics.com/investors/overview"
+        />
+      </Helmet>
       <Navbar />
       <SlideinBarInvester />
       <div className="pt-0 ">
@@ -259,13 +278,16 @@ function Overview() {
                   <div className="overflow-hidden">
                     <img
                       src={member.image}
-                      alt="main"
+                      alt={member.name + "'s profile"}
                       className=" w-full h-full object-cover min-w-[130px] lg:w-[150px] lg:h-[150px] lg:block hidden"
                     />
+                  </div>
+
+                  <div className="lg:hidden min-w-[130px] h-full bg-gray-200">
                     <img
                       src={member.image2}
-                      alt="main"
-                      className=" w-full h-full object-cover min-w-[130px] lg:w-[150px] lg:h-[150px] lg:hidden block"
+                      alt={member.name + "'s profile"}
+                      className="h-full object-cover w-full  lg:hidden block"
                     />
                   </div>
                   <div className="pt-[13px] lg:pt-[24px] font-Barlow px-[10px] lg:px-[33px]">
@@ -276,7 +298,7 @@ function Overview() {
                       {member.designation}
                       {/*{member.organization}*/}
                     </p>
-                    <button className="mt-[30px]  lg:mt-[30px] mb-[5px] text-[#b80001] hover:text-black font-bold">
+                    <button className="mt-[20px]  lg:mt-[30px] mb-[5px] text-[#b80001] hover:text-black font-bold">
                       More
                     </button>
                   </div>
@@ -284,7 +306,7 @@ function Overview() {
               ))}
             </div>
           </div>
-          <div className="lg:py-16 py-6">
+          <div className="lg:py-16 py-16">
             <h2 className="font-antonio text-[26px] lg:text-[36px] pb-3 lg:pb-9">
               Key managerial personnel (KMP)
             </h2>
@@ -295,11 +317,11 @@ function Overview() {
                   className="border border-black flex"
                   onClick={() => openPopup("kmp", index)}
                 >
-                  <div className="overflow-hidden">
+                  <div className="overflow-hidden lg:mim-w-[150px] min-w-[135px] h-full">
                     <img
                       src={member.image}
                       alt="main"
-                      className=" w-full h-full object-cover lg:w-[150px] lg:h-[150px] "
+                      className=" w-full h-full object-cover"
                     />
                   </div>
                   <div className="pt-[13px] lg:pt-[24px] font-Barlow px-[24px] lg:px-[33px]">

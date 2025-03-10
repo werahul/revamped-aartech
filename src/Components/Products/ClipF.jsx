@@ -22,6 +22,7 @@ import {
   Ambatovy,
 } from "../../assets/WorkBlackLogos";
 import { CustomWorkPages } from "../AutoScroll";
+import { Helmet } from "react-helmet";
 
 const ClipF = () => {
   useEffect(() => {
@@ -68,12 +69,30 @@ const ClipF = () => {
   ];
   return (
     <div>
+
+    <Helmet>
+        <meta
+          name="title"
+          content="Clip Fault Current Limiters"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="Protecting electrical systems with advanced fault current control."
+        />
+        <link
+          rel="canonical"
+          href="https://aartechsolonics.com/products/clip-fault-current-limiters"
+        />
+      </Helmet>
+
+
       <Navbar />
       <SlideInBar/>
-      <div className="max-container 2xl:px-[120px] lg:py-20 lg:px-20  lg:pt-28 pt-20 px-5 py-10 lg:mt-0 mt-5 sm:px-10">
-        <div className="lg:hidden text-black text-[28px] font-normal font-antonio ">
+      <div className="max-container  lg:py-20 lg:px-20  lg:pt-28 pt-20 px-5 py-10 lg:mt-0 mt-5 sm:px-10">
+        <h1 className="lg:hidden text-black text-[28px] font-normal font-antonio ">
           CLIP Fault Current Limiters
-        </div>
+        </h1>
         <div className="lg:hidden text-foot-blue text-lg font-bold font-Barlow tracking-wide mb-2 mt-1">
           PRODUCTS
         </div>

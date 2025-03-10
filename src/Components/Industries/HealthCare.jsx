@@ -25,6 +25,7 @@ import {
   health5,
 } from "../../assets/IndImages";
 import { health } from "../../assets/subImg";
+import { Helmet } from "react-helmet";
 
 const HealthCare = () => {
   useEffect(() => {
@@ -68,13 +69,28 @@ const HealthCare = () => {
   };
   return (
     <div>
+      <Helmet>
+        <meta
+          name="title"
+          content="Transforming Healthcare Solutions"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="Innovative technology solutions improving efficiency, safety, and patient care in healthcare."
+        />
+        <link
+          rel="canonical"
+          href="https://aartechsolonics.com/industries/health-care"
+        />
+      </Helmet>
       <Navbar />
-      <SlideInBar/>
-      <div className="max-container 2xl:px-[120px] lg:pt-28 lg:px-20  pt-20 px-5 lg:py-0  lg:mt-0 mt-5 sm:px-10">
+      <SlideInBar />
+      <div className="max-container  lg:pt-28 lg:px-20  pt-20 px-5 lg:py-0  lg:mt-0 mt-5 sm:px-10">
         <div className="flex lg:flex-row flex-col lg:mt-20">
-          <div className="lg:hidden text-black text-[28px] font-normal font-antonio">
+          <h1 className="lg:hidden text-black text-[28px] font-normal font-antonio">
             Healthcare
-          </div>
+          </h1>
           <div className="lg:hidden text-foot-blue text-lg font-bold font-Barlow tracking-wide mb-2 mt-1">
             INDUSTRIES
           </div>
@@ -601,7 +617,11 @@ const HealthCare = () => {
             }`}
           >
             <div className=" sm:w-[130%] w-[100%] h-auto sm:p-2 p-0 ">
-              <img src={bts} alt="Images" className="sm:w-[130%] w-[100%]"></img>
+              <img
+                src={bts}
+                alt="Images"
+                className="sm:w-[130%] w-[100%]"
+              ></img>
             </div>
             <div className="  text-black lg:text-2xl text-base lg:font-normal font-medium font-Barlow sm:ml-5 sm:mt-0 mt-4 lg:leading-tight leading-snug">
               The BTS 2000 Fast Bus Transfer System ensures an uninterrupted
@@ -619,7 +639,11 @@ const HealthCare = () => {
             }`}
           >
             <div className=" sm:w-[120%] w-[100%] h-auto sm:p-2 p-0 ">
-              <img src={kra} alt="Images" className="sm:w-[120%] w-[100%]"></img>
+              <img
+                src={kra}
+                alt="Images"
+                className="sm:w-[120%] w-[100%]"
+              ></img>
             </div>
             <div className=" text-black lg:text-2xl text-base lg:font-normal font-medium font-Barlow sm:ml-5 sm:mt-0 mt-4 lg:leading-tight leading-snug">
               KranKing® Ultracapacitors are vital for healthcare, ensuring
@@ -640,7 +664,11 @@ const HealthCare = () => {
             }`}
           >
             <div className=" sm:w-[120%] w-[100%] h-auto sm:p-2 p-0 ">
-              <img src={fuel1} alt="Images" className="sm:w-[120%] w-[100%]"></img>
+              <img
+                src={fuel1}
+                alt="Images"
+                className="sm:w-[120%] w-[100%]"
+              ></img>
             </div>
             <div className="text-black lg:text-2xl text-base lg:font-normal font-medium font-Barlow  sm:ml-5 sm:mt-0 mt-4 lg:leading-tight leading-snug">
               Fuel cells play a vital role in healthcare by providing a reliable
@@ -660,17 +688,21 @@ const HealthCare = () => {
             }`}
           >
             <div className=" sm:w-[120%] w-[100%] h-auto sm:p-2 p-0 ">
-              <img src={bestCase} alt="Images" className="sm:w-[120%] w-[100%]"></img>
+              <img
+                src={bestCase}
+                alt="Images"
+                className="sm:w-[120%] w-[100%]"
+              ></img>
             </div>
             <div className=" text-black lg:text-2xl text-base lg:font-normal font-medium font-Barlow sm:ml-5 sm:mt-0 mt-4 lg:leading-tight leading-snug">
               Best Case addresses the challenges in healthcare by providing
               timely access to quality enclosures for various medical products
               and equipment. It offers cost-effective solutions, eliminating the
-              need for expensive and often subpar alternatives. Best Case ensures
-              availability, allowing professionals to showcase their offerings
-              effectively, whether for prototypes, demonstrations, or important
-              meetings, contributing to their best-case scenarios in healthcare
-              settings.
+              need for expensive and often subpar alternatives. Best Case
+              ensures availability, allowing professionals to showcase their
+              offerings effectively, whether for prototypes, demonstrations, or
+              important meetings, contributing to their best-case scenarios in
+              healthcare settings.
             </div>
           </div>
 
@@ -680,7 +712,11 @@ const HealthCare = () => {
             }`}
           >
             <div className=" sm:w-[120%] w-[100%] h-auto sm:p-2 p-0 ">
-              <img src={SWT} alt="Images" className="sm:w-[120%] w-[100%]"></img>
+              <img
+                src={SWT}
+                alt="Images"
+                className="sm:w-[120%] w-[100%]"
+              ></img>
             </div>
             <div className=" text-black lg:text-2xl text-base lg:font-normal font-medium font-Barlow sm:ml-5 sm:mt-0 mt-4 lg:leading-tight leading-snug">
               The Waste To Compost (WTC) machine is a healthcare facility
@@ -701,7 +737,11 @@ const HealthCare = () => {
             }`}
           >
             <div className=" sm:w-[120%] w-[100%] h-auto sm:p-2 p-0 ">
-              <img src={solar} alt="Images" className="sm:w-[120%] w-[100%]"></img>
+              <img
+                src={solar}
+                alt="Images"
+                className="sm:w-[120%] w-[100%]"
+              ></img>
             </div>
             <div className=" text-black lg:text-2xl text-base lg:font-normal font-medium font-Barlow sm:ml-5 sm:mt-0 mt-4 lg:leading-tight leading-snug">
               Aartech's Solar Design and Services for healthcare encompass a
@@ -722,7 +762,11 @@ const HealthCare = () => {
             }`}
           >
             <div className=" sm:w-[130%] w-[100%] h-auto sm:p-2 p-0 ">
-              <img src={Ups} alt="Images" className="sm:w-[130%] w-[100%]"></img>
+              <img
+                src={Ups}
+                alt="Images"
+                className="sm:w-[130%] w-[100%]"
+              ></img>
             </div>
             <div className=" text-black lg:text-2xl text-base lg:font-normal font-medium font-Barlow sm:ml-5 sm:mt-0 mt-4 lg:leading-tight leading-snug">
               In Healthcare, DC UPS Systems are crucial for ensuring

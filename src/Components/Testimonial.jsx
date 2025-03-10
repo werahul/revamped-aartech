@@ -2,7 +2,7 @@ import React from "react";
 
 const Testimonial = ({ testimonial }) => {
   return (
-    <div className="w-full sm:w-[110%]  xl:w-[120%] lg:w-[150%] 2xl:w-[120%]   3xl:w-[110%] px-5 lg:px-20 2xl:px-[120px]">
+    <div className="w-full sm:w-[110%]  xl:w-[120%] lg:w-[150%] 2xl:w-[120%]   3xl:w-[110%] px-5 lg:px-20 2xl:px-[80px]">
       <div className="bg-transparent border-white   2xl:w-[115%] border  flex flex-col lg:flex-row shadow">
         <img
           src={testimonial.image}
@@ -31,7 +31,7 @@ const Testimonial = ({ testimonial }) => {
           <p className="font-bold text-[16px] text-white hidden lg:block lg:pb-[16px] 2xl:pb-[32px] font-Barlow">
             {testimonial.company}
           </p>
-          <p className="font-Barlow text-[16px] lg:text-[15px] 2xl:text-[13px] px-2 lg:px-0 py-4 lg:py-0 3xl:text-[18px] text-[#ffffff] italic ">
+          <p className="font-Barlow text-[16px] lg:text-[15px] 2xl:text-[13px] px-2 lg:px-0 py-4 lg:py-0  text-[#ffffff] italic ">
             {testimonial.text}
           </p>
         </div>

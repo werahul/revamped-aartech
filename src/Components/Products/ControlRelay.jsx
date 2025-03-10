@@ -21,6 +21,7 @@ import {
   tamilNaduVidhut,
 } from "../../assets/WorkBlackLogos";
 import { CustomWorkPages } from "../AutoScroll";
+import { Helmet } from "react-helmet";
 
 const ControlRelay = () => {
   useEffect(() => {
@@ -67,12 +68,28 @@ const ControlRelay = () => {
   ];
   return (
     <div>
+      <Helmet>
+        <meta
+          name="title"
+          content="Precision Control Relay Panels"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="Reliable relay panels ensuring seamless power distribution."
+        />
+        <link
+          rel="canonical"
+          href="https://aartechsolonics.com/products/control-relay-panels"
+        />
+      </Helmet>
+
       <Navbar />
-      <SlideInBar/>
-      <div className="max-container 2xl:px-[120px] lg:py-20 lg:px-20  lg:pt-28 pt-20 px-5 py-10 lg:mt-0 mt-5 sm:px-10">
-        <div className="lg:hidden text-black text-[28px] font-normal font-antonio ">
+      <SlideInBar />
+      <div className="max-container  lg:py-20 lg:px-20  lg:pt-28 pt-20 px-5 py-10 lg:mt-0 mt-5 sm:px-10">
+        <h1 className="lg:hidden text-black text-[28px] font-normal font-antonio ">
           Control & Relay Panels
-        </div>
+        </h1>
         <div className="lg:hidden text-foot-blue text-lg font-bold font-Barlow tracking-wide mb-2 mt-1">
           PRODUCTS
         </div>
@@ -440,7 +457,7 @@ const ControlRelay = () => {
         <CustomWorkPages imageSources={partnerImageSources} />
 
         <div className="text-black lg:text-4xl text-[28px] font-normal font-antonio lg:mt-0 mt-10">
-        Downloads
+          Downloads
         </div>
 
         <div className="lg:mt-8 font-Barlow text-[18px] space-y-3 mt-3">

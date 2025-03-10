@@ -1,5 +1,12 @@
 import React, { useState } from "react";
-import { Navbar, Footer, Accordion, Accordion2, Accordion3, SlideInBar } from "../index";
+import {
+  Navbar,
+  Footer,
+  Accordion,
+  Accordion2,
+  Accordion3,
+  SlideInBar,
+} from "../index";
 import { best1, best2, best3, best4, best5 } from "../../assets/proImages";
 import { BTS1 } from "../../assets/pdf";
 import { ImageSelect } from "../ImageSelector";
@@ -19,6 +26,7 @@ import {
   aemed,
 } from "../../assets/WorkBlackLogos";
 import { CustomWorkPages } from "../AutoScroll";
+import { Helmet } from "react-helmet";
 
 const BestCase = () => {
   const images = [best1, best2, best3, best4, best5];
@@ -66,13 +74,28 @@ const BestCase = () => {
   ];
   return (
     <div>
+      <Helmet>
+        <meta
+          name="title"
+          content="Best Case: Custom Protection"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="Durable plastic cases designed for industrial and commercial needs."
+        />
+        <link
+          rel="canonical"
+          href="https://aartechsolonics.com/products/best-case"
+        />
+      </Helmet>
       <Navbar />
-      <SlideInBar/>
-      <div className="max-container 2xl:px-[120px] lg:pt-28 lg:px-20  px-5 pt-20 lg:mt-0 mt-5 sm:px-10">
+      <SlideInBar />
+      <div className="max-container  lg:pt-28 lg:px-20  px-5 pt-20 lg:mt-0 mt-5 sm:px-10">
         <div className="flex lg:flex-row flex-col lg:mt-20">
-          <div className="lg:hidden text-black text-[28px] font-normal font-antonio">
+          <h1 className="lg:hidden text-black text-[28px] font-normal font-antonio">
             Best Case
-          </div>
+          </h1>
           <div className="lg:hidden text-foot-blue text-lg font-bold font-Barlow tracking-wide mb-2 mt-1">
             PRODUCTS
           </div>

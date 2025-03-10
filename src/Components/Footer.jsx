@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <div className="mainFOOT bg-foot-blue">
-        <div className="max-container 2xl:px-[120px] lg:px-20 lg:pt-14 lg:pb-5 pb-5 pt-10 px-6 py-10  h-auto text-white z-10 sm:px-10">
+        <div className="max-container lg:px-20 lg:pt-14 lg:pb-5 pb-5 pt-10 px-6 py-10  h-auto text-white z-10 sm:px-10">
           <div className=" footsec lg:flex justify-between items-start ">
             <div className="first-col lg:flex space-x-20">
               <div className="footImg lg:mb-8 mb-3 -mt-3 lg:block ">

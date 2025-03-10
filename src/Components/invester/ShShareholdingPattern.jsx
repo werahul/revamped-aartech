@@ -5,6 +5,7 @@ import Footer from "../Footer";
 import { Link } from "react-router-dom";
 import SlideinBar from "../../Pages/SlideInBar";
 import SlideinBarInvestor from "../../Pages/SlideinBarInvester";
+import { Helmet } from "react-helmet";
 
 const ShShareholdingPattern = () => {
   useEffect(() => {
@@ -12,6 +13,21 @@ const ShShareholdingPattern = () => {
   }, []);
   return (
     <div>
+      <Helmet>
+        <meta
+          name="title"
+          content="Shareholding Pattern"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="Detailed insights into company share distribution."
+        />
+        <link
+          rel="canonical"
+          href="https://aartechsolonics.com/investors/shareholders-information-shareholding-pattern"
+        />
+      </Helmet>
       <Navbar />
       <SlideinBarInvestor />
       {/*<div className="relative lg:mt-[10.5rem] mt-[4.4rem]">

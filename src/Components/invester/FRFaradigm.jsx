@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { main, mainMobile } from "../../assets/invester";
 import SlideinBar from "../../Pages/SlideInBar";
 import SlideinBarInvestor from "../../Pages/SlideinBarInvester";
+import { Helmet } from "react-helmet";
 
 function FRFaradigm() {
   useEffect(() => {
@@ -13,6 +14,21 @@ function FRFaradigm() {
 
   return (
     <div>
+      <Helmet>
+        <meta
+          name="title"
+          content="Faradigm Half-Yearly Results"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="Financial performance updates from our subsidiary."
+        />
+        <link
+          rel="canonical"
+          href="https://aartechsolonics.com/investors/financial-reports-faradigm-subsidiary-half-yearly-results"
+        />
+      </Helmet>
       <Navbar />
       <SlideinBarInvestor />
       <div className="pt-0">
@@ -26,9 +42,9 @@ function FRFaradigm() {
 
         <div className=" Inv-pverViewBg h-auto lg:mt-[10.5rem] mt-[4.4rem]">
           <div className="max-container lg:px-20 sm:px-10 px-5 ">
-            <div class="flex items-end text-foot-blue w-full lg:h-[250px] h-[150px] pb-[48px]  lg:text-4xl text-[28px] font-normal font-antonio leading-9">
+            <h1 class="flex items-end text-foot-blue w-full lg:h-[250px] h-[150px] pb-[48px]  lg:text-4xl text-[28px] font-normal font-antonio leading-9">
               Financial <br className="lg:hidden block" /> Reports
-            </div>
+            </h1>
           </div>
         </div>
         <div className="px-5 lg:px-20 py-5 lg:py-9 max-container">

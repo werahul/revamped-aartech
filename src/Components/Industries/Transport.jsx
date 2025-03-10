@@ -25,6 +25,7 @@ import {
   tran4,
   tran5,
 } from "../../assets/IndImages";
+import { Helmet } from "react-helmet";
 
 const Transport = () => {
   useEffect(() => {
@@ -61,13 +62,29 @@ const Transport = () => {
   };
   return (
     <div>
+
+    <Helmet>
+        <meta
+          name="title"
+          content="Reliable Power for Transportation"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="Uninterrupted energy solutions to keep your transportation systems running smoothly."
+        />
+        <link
+          rel="canonical"
+          href="https://aartechsolonics.com/industries/transportation"
+        />
+      </Helmet>
       <Navbar />
       <SlideInBar/>
-      <div className="max-container 2xl:px-[120px] lg:pt-28 lg:px-20  pt-20 px-5 lg:py-0  lg:mt-0 mt-5 sm:px-10">
+      <div className="max-container  lg:pt-28 lg:px-20  pt-20 px-5 lg:py-0  lg:mt-0 mt-5 sm:px-10">
         <div className="flex lg:flex-row flex-col lg:mt-20">
-          <div className="lg:hidden text-black text-[28px] font-normal font-antonio">
+          <h1 className="lg:hidden text-black text-[28px] font-normal font-antonio">
             Transportation
-          </div>
+          </h1>
           <div className="lg:hidden text-foot-blue text-lg font-bold font-Barlow tracking-wide mb-2 mt-1">
             INDUSTRIES
           </div>

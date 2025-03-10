@@ -1,6 +1,6 @@
-import main from "./main.png"
-import mainMobile from "./main-mobile.png"
-import play from "./play.png"
-import cross from "./cross.png"
+import main from "./main.webp"
+import mainMobile from "./main-mobile.webp"
+import play from "./play.webp"
+import cross from "./cross.webp"
 
 export {main, play, mainMobile, cross}

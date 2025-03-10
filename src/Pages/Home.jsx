@@ -67,12 +67,12 @@ const Home = () => {
       <Helmet>
         <meta
           name="title"
-          content="Aartech Solonics "
+          content="Powering Innovation"
           data-react-helmet="true"
         />
         <meta
           name="description"
-          content="We enhance your online presence through website development, engaging UI/UX design, and strategic SEO copywriting. Contact us today to get started."
+          content="Cutting-edge tech solutions for seamless automation, control, and power management."
         />
         <link rel="canonical" href="https://aartechsolonics.com" />
       </Helmet>
@@ -80,10 +80,10 @@ const Home = () => {
       <Navbar />
       <Header />
       <Header2 />
-      <div className=" fullPage 2xl:px-[120px] lg:px-20 lg:pb-[74px]  lg:pt-20  w-[100%] py-10 px-5 mr-[83px] sm:px-10">
-        <div className="title lg:text-4xl text-[28px] text-box-red leading-9  font-normal lg:mt-0  font-antonio lg:mb-9 mb-4">
+      <div className=" fullPage  lg:px-20 lg:pb-[74px]  lg:pt-20  w-[100%] py-10 px-5 mr-[83px] sm:px-10 max-container">
+        <h1 className="title lg:text-4xl text-[28px] text-box-red leading-9  font-normal lg:mt-0  font-antonio lg:mb-9 mb-4">
           Our Tailored Solutions
-        </div>
+        </h1>
         <div className="font-Barlow lg:text-[20px] text-lightBlack text-[16px] lg:w-full lg:font-semibold font-medium lg:mb-[32px] mb-4 ">
           {" "}
           Choose any ONE of the THREE segments below and check out corresponding
@@ -93,11 +93,11 @@ const Home = () => {
       </div>
       <CustomerLogos />
       <MapImage />
-      <div className="fullPage 2xl:px-[120px] lg:px-20  lg:my-[3.8rem] w-[100%] lg:pt-0 lg:pb-0 pt-10 pb-[2rem] px-5 sm:px-10 ">
+      <div className="fullPage  lg:px-20  max-container lg:my-[3.8rem] w-[100%] lg:pt-0 lg:pb-0 pt-10 pb-[2rem] px-5 sm:px-10 ">
         <AboutUsHome />
       </div>
       <TestimonialSlider testimonials={testimonials} />
-      <div className="fullPage 2xl:px-[120px] lg:px-20 lg:py-[80px] w-[100%] p-5 sm:px-10">
+      <div className="fullPage max-container lg:px-20 lg:py-[80px] w-[100%] p-5 sm:px-10">
         <Services />
       </div>
 

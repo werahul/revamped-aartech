@@ -1,5 +1,12 @@
 import React, { useState } from "react";
-import { Navbar, Footer, Accordion, Accordion2, Accordion3, SlideInBar } from "../index";
+import {
+  Navbar,
+  Footer,
+  Accordion,
+  Accordion2,
+  Accordion3,
+  SlideInBar,
+} from "../index";
 
 import { Load1, Load2, Load3, Load4, Load5 } from "../../assets/IndImages";
 
@@ -7,6 +14,7 @@ import { ImageSelect } from "../ImageSelector";
 
 import { CustomerLogos2 } from "..";
 import { download } from "../../assets/images";
+import { Helmet } from "react-helmet";
 
 const LoadChecker = () => {
   const images = [Load1, Load2, Load3, Load4, Load5];
@@ -41,13 +49,28 @@ const LoadChecker = () => {
   };
   return (
     <div>
+      <Helmet>
+        <meta
+          name="title"
+          content="Load Checker: Power Analysis"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="Accurate load measurement for improved energy efficiency."
+        />
+        <link
+          rel="canonical"
+          href="https://aartechsolonics.com/products/load-checker"
+        />
+      </Helmet>
       <Navbar />
-      <SlideInBar/>
-      <div className="max-container 2xl:px-[120px] lg:pt-28 lg:px-20  pt-20 px-5 py-10 lg:mt-0 mt-5 sm:px-10">
+      <SlideInBar />
+      <div className="max-container  lg:pt-28 lg:px-20  pt-20 px-5 py-10 lg:mt-0 mt-5 sm:px-10">
         <div className="flex lg:flex-row flex-col lg:mt-20">
-          <div className="lg:hidden text-black text-[28px] font-normal font-antonio">
+          <h1 className="lg:hidden text-black text-[28px] font-normal font-antonio">
             Load Checker
-          </div>
+          </h1>
           <div className="lg:hidden text-foot-blue text-lg font-bold font-Barlow tracking-wide mb-2 mt-1">
             PRODUCTS
           </div>

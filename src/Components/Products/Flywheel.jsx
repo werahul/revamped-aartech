@@ -6,16 +6,11 @@ import { Accordion, Accordion2, Accordion3 } from "..";
 import { CustomerLogos2 } from "..";
 
 import { ImageSelect } from "../ImageSelector";
-// import { cp1, cp2, cp3, cp4, cp5 } from "../../assets/proImages";
-import {
-  flywheel1,
-  flywheel2,
-  flywheel3,
-  flywheel4,
-  flywheel5,
-} from "../../assets/IndImages";
+import { flyW1, flyW2, flyW3, flyW4, flyW5 } from "../../assets/proImages";
+
 import { indRail, CapS, CapG, hp } from "../../assets/WorkBlackLogos";
 import { SolidWasteAuto } from "../AutoScroll";
+import { Helmet } from "react-helmet";
 
 const Flywheel = () => {
   useEffect(() => {
@@ -23,7 +18,7 @@ const Flywheel = () => {
   }, []); // Empty dependency array ensures the effect runs only
 
   const [selectedTag, setSelectedTag] = useState("tag1");
-  const images = [flywheel1, flywheel2, flywheel3, flywheel4, flywheel5];
+  const images = [flyW1, flyW2, flyW3, flyW4, flyW5];
 
   const tagContents = {
     tag1: "Flywheels provide crucial power reliability for defence and exploration and offer versatile applications in electric vehicles, grid stability, public transport, and uninterrupted power supply, promoting efficiency and emission reduction.",
@@ -48,12 +43,27 @@ const Flywheel = () => {
   const partnerImageSources = [indRail, CapS, CapG, hp];
   return (
     <div>
+    <Helmet>
+        <meta
+          name="title"
+          content="Flywheel Energy Storage"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="Efficient kinetic energy storage for uninterrupted power supply."
+        />
+        <link
+          rel="canonical"
+          href="https://aartechsolonics.com/products/flywheel"
+        />
+      </Helmet>
       <Navbar />
-      <SlideInBar/>
-      <div className="max-container 2xl:px-[120px] lg:pt-28 lg:px-20  pt-20 px-5 lg:mt-0 mt-5 sm:px-10">
-        <div className="lg:hidden text-black text-[28px] font-normal font-antonio ">
-        Flywheel
-        </div>
+      <SlideInBar />
+      <div className="max-container  lg:pt-28 lg:px-20  pt-20 px-5 lg:mt-0 mt-5 sm:px-10">
+        <h1 className="lg:hidden text-black text-[28px] font-normal font-antonio ">
+          Flywheel
+        </h1>
         <div className="lg:hidden text-foot-blue text-lg font-bold font-Barlow tracking-wide mb-2 mt-1">
           PRODUCTS
         </div>

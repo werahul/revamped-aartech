@@ -8,6 +8,7 @@ import sohail from "./sohail.svg"
 import ssr from "./ssr.svg"
 import supriya from "./supriya.svg"
 import vivek from "./vivek.svg"
+import chhaya from "./chhaya.svg"
 
 import mAmit from "./mAmit.svg"
 import mAnil from "./mAnil.svg"
@@ -15,8 +16,9 @@ import mArati from "./mArati.svg"
 import mBlank from "./mBlank.svg"
 import mKshitij from "./mKshitij.svg"
 import mSupriya from "./mSupriya.svg"
+import mChhaya from "./mChhaya.svg"
 
 
 
 export {amit, anil, arati, dabshish, kshi, pradeep, sohail, ssr, supriya, vivek,
-mAmit, mAnil ,mArati, mBlank, mKshitij, mSupriya}
+mAmit, mAnil ,mArati, mBlank, mKshitij, mSupriya, chhaya, mChhaya}

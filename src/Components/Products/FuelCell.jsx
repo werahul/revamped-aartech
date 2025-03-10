@@ -6,10 +6,11 @@ import { Accordion, Accordion2, Accordion3 } from "..";
 import { CustomerLogos2 } from "..";
 
 import { ImageSelect } from "../ImageSelector";
-// import { cp1, cp2, cp3, cp4, cp5 } from "../../assets/proImages";
-import { fuelcell1, fuelcell2 } from "../../assets/IndImages";
+import { fuel1, fuel2, fuel3, fuel4, fuel5 } from "../../assets/proImages";
+
 import { indRail, CapS, CapG, hp } from "../../assets/WorkBlackLogos";
 import { SolidWasteAuto } from "../AutoScroll";
+import { Helmet } from "react-helmet";
 
 const FuelCell = () => {
   useEffect(() => {
@@ -17,7 +18,7 @@ const FuelCell = () => {
   }, []); // Empty dependency array ensures the effect runs only
 
   const [selectedTag, setSelectedTag] = useState("tag1");
-  const images = [fuelcell1, fuelcell2, fuelcell2, fuelcell2, fuelcell2];
+  const images = [fuel1, fuel2, fuel3, fuel4, fuel5];
 
   const tagContents = {
     tag1: "Fuel cells play a crucial role in defence and exploration by offering higher efficiency, endurance, portability, and silent operation. They power communication, surveillance, and unmanned systems, ensuring reliable and eco-friendly energy sources for critical missions in various scenarios.",
@@ -40,12 +41,27 @@ const FuelCell = () => {
   const partnerImageSources = [indRail, CapS, CapG, hp];
   return (
     <div>
+      <Helmet>
+        <meta
+          name="title"
+          content="Fuel Cell: Clean Energy Tech"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="Sustainable fuel cell solutions for a greener future."
+        />
+        <link
+          rel="canonical"
+          href="https://aartechsolonics.com/products/fuel-cell"
+        />
+      </Helmet>
       <Navbar />
-      <SlideInBar/>
-      <div className="max-container 2xl:px-[120px] lg:pt-28 lg:px-20  pt-20 px-5 lg:mt-0 mt-5 sm:px-10">
-        <div className="lg:hidden text-black text-[28px] font-normal font-antonio ">
+      <SlideInBar />
+      <div className="max-container  lg:pt-28 lg:px-20  pt-20 px-5 lg:mt-0 mt-5 sm:px-10">
+        <h1 className="lg:hidden text-black text-[28px] font-normal font-antonio ">
           Fuel Cell
-        </div>
+        </h1>
         <div className="lg:hidden text-foot-blue text-lg font-bold font-Barlow tracking-wide mb-2 mt-1">
           PRODUCTS
         </div>

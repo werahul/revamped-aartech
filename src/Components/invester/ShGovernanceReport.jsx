@@ -4,6 +4,7 @@ import Navbar from "../Navbar";
 import Footer from "../Footer";
 import { Link } from "react-router-dom";
 import SlideinBarInvestor from "../../Pages/SlideinBarInvester";
+import { Helmet } from "react-helmet";
 
 const ShGovernanceReport = () => {
   useEffect(() => {
@@ -12,6 +13,21 @@ const ShGovernanceReport = () => {
 
   return (
     <div>
+      <Helmet>
+        <meta
+          name="title"
+          content="Corporate Governance Report"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="Ensuring transparency and accountability in governance."
+        />
+        <link
+          rel="canonical"
+          href="https://aartechsolonics.com/investors/shareholders-information-corporate-governance-report"
+        />
+      </Helmet>
       <Navbar />
       <SlideinBarInvestor />
       {/*<div className="relative lg:mt-[10.5rem] mt-[4.4rem]">

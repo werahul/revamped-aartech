@@ -23,6 +23,7 @@ import {
   waste4,
   waste5,
 } from "../../assets/IndImages";
+import { Helmet } from "react-helmet";
 
 const WasteMang = () => {
   useEffect(() => {
@@ -49,13 +50,28 @@ const WasteMang = () => {
   };
   return (
     <div>
+      <Helmet>
+        <meta
+          name="title"
+          content="Smarter Waste Management"
+          data-react-helmet="true"
+        />
+        <meta
+          name="description"
+          content="Innovative solutions for efficient and sustainable waste handling."
+        />
+        <link
+          rel="canonical"
+          href="https://aartechsolonics.com/industries/waste-management"
+        />
+      </Helmet>
       <Navbar />
-      <SlideInBar/>
-      <div className="max-container 2xl:px-[120px] lg:pt-28 lg:px-20  pt-20 px-5 lg:py-0  lg:mt-0 mt-5 sm:px-10">
+      <SlideInBar />
+      <div className="max-container  lg:pt-28 lg:px-20  pt-20 px-5 lg:py-0  lg:mt-0 mt-5 sm:px-10">
         <div className="flex lg:flex-row flex-col lg:mt-20">
-          <div className="lg:hidden text-black text-[28px] font-normal font-antonio">
+          <h1 className="lg:hidden text-black text-[28px] font-normal font-antonio">
             Waste Management
-          </div>
+          </h1>
           <div className="lg:hidden text-foot-blue text-lg font-bold font-Barlow tracking-wide mb-2 mt-1">
             INDUSTRIES
           </div>
@@ -197,7 +213,11 @@ const WasteMang = () => {
             }`}
           >
             <div className=" sm:w-[130%] lg:w-[100%] w-[100%] h-auto sm:p-2 p-0 ">
-              <img src={SWT} alt="Images" className="sm:w-[100%] w-[100%]"></img>
+              <img
+                src={SWT}
+                alt="Images"
+                className="sm:w-[100%] w-[100%]"
+              ></img>
             </div>
             <div className=" text-black lg:text-2xl text-base lg:font-normal font-medium font-Barlow sm:ml-5 sm:mt-0 mt-4  lg:leading-tight leading-snug">
               The WTC machine is a game-changer in waste management, quickly
@@ -217,7 +237,11 @@ const WasteMang = () => {
             }`}
           >
             <div className=" sm:w-[130%] lg:w-[100%] w-[100%] h-auto sm:p-2 p-0 ">
-              <img src={Ups} alt="Images" className="sm:w-[100%] w-[100%]"></img>
+              <img
+                src={Ups}
+                alt="Images"
+                className="sm:w-[100%] w-[100%]"
+              ></img>
             </div>
             <div className="  text-black lg:text-2xl text-base lg:font-normal font-medium font-Barlow sm:ml-5 sm:mt-0 mt-4 lg:leading-tight leading-snug">
               In Waste Management, DC UPS Systems from J. Schneider play a vital

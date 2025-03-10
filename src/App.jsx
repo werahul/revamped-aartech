@@ -24,6 +24,7 @@ import { ContactAndGriv,Disclosures,Downloads, Chairman, Shareholders, ShComplia
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Awards1, Awards2 ,Awards3, Awards4 , Awards5} from './Pages/Awards SubPage'
+import Error404 from './Pages/Error404'
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" Component={Home} />
+          <Route path="*" Component={Error404} />
           <Route exact path="/brands" Component={OurBrands} />
           <Route exact path="/work" />
           <Route exact path="/contact" Component={Contact} />
