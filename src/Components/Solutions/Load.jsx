@@ -15,7 +15,7 @@ import {
 } from "../../assets/ProductImages";
 
 import { ImageSelect } from "../ImageSelector";
-import { load1, load2, load3, load4, load5 } from "../../assets/solutionImages";
+import { loadSol1, loadSol2, loadSol3, loadSol4, loadSol5 } from "../../assets/solutionImages";
 import { Helmet } from "react-helmet";
 
 const Load = () => {
@@ -25,7 +25,7 @@ const Load = () => {
 
   const [selectedTag, setSelectedTag] = useState("tag1");
   const [selectedProTag, setSelectedProTag] = useState("PTag1");
-  const images = [load1, load2, load3, load4, load5];
+  const images = [loadSol1, loadSol2, loadSol3, loadSol4, loadSol5];
 
   const tagContents = {
     tag1: "Load limiting, especially in defence and exploration, addresses the energy demand-supply gap. It ensures a fair distribution of power, enables self-healing in smart grids, deters misuse and encourages responsible energy consumption.        ",

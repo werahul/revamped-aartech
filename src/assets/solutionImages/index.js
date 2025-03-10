@@ -28,11 +28,11 @@ import pbu3 from "./pbu3.webp";
 import pbu4 from "./pbu4.webp";
 import pbu5 from "./pbu5.webp";
 
-import load1 from "./load1.webp";
-import load2 from "./load2.webp";
-import load3 from "./load3.webp";
-import load4 from "./load4.webp";
-import load5 from "./load5.webp";
+import loadSol1 from "./loadSol1.webp";
+import loadSol2 from "./loadSol2.webp";
+import loadSol3 from "./loadSol3.webp";
+import loadSol4 from "./loadSol4.webp";
+import loadSol5 from "./loadSol5.webp";
 
 import enrg1 from "./enrg1.webp";
 import enrg2 from "./enrg2.webp";
@@ -112,11 +112,11 @@ export {
   pbu3,
   pbu4,
   pbu5,
-  load1,
-  load2,
-  load3,
-  load4,
-  load5,
+  loadSol1,
+  loadSol2,
+  loadSol3,
+  loadSol4,
+  loadSol5,
   enrg1,
   enrg2,
   enrg3,
