@@ -76,8 +76,13 @@ const Footer = () => {
             <div className="sec-col">
               <div className="address lg:w-[21rem] w-[19rem] font-Barlow lg:text-[18px] font-semibold uppercase text[16px]">
                 “Ashirwad” E2/57, Arera Colony, Bhopal, Madhya Pradesh (M.P.)
-                India 462016 Tel:+91-755-2463593/4276335 Mob No. +91-9752531167,
-                9993091167
+                India 462016 <br />{" "}
+                {/*Tel:{" "}
+                <a href="tel:+917552463593">+91-755-2463593</a>
+                <a href="tel:+917554276335">/4276335 </a> <br /> Mob No.{" "}
+                <a href="tel:+919752531167"> +91-9752531167</a>,
+                <a href="tel:+919993091167"> 9993091167</a>*/}
+                <a href="tel:18004199409 ">Toll free no. 18004199409 </a>
                 <div className="flex ">
                   <Link to="/contact">
                     <button className="border border-slate-100 outline-none py-2 px-3 text-[18px] my-4 w-[137px] lg:w-[144px] h-[44px] hover:text-black hover:bg-white transition-all">

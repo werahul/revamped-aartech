@@ -21,5 +21,6 @@ import MapImage from "./MapImage";
 import NavbarApi from "./NavbarApi";
 
 import CustomerLogos2 from "./CustomerLogos2.jsx";
+import WhatsappWidget from "./WhatsappWidget.jsx";
 
-export {NavbarApi, CustomerLogos, AboutUsHome,CarouselAbout, CLogos, Services, PhotoGallery, TestimonialSlider, Header, BreadCrumbs,Footer,Navbar, OptionsGrid, AboutImages, SlideInBar, Accordion, Accordion2,Accordion3, CustomerLogos2, MapImage, Header2}    
+export {NavbarApi, CustomerLogos, AboutUsHome,CarouselAbout, CLogos, Services, PhotoGallery, TestimonialSlider, Header, BreadCrumbs,Footer,Navbar, OptionsGrid, AboutImages, SlideInBar, Accordion, Accordion2,Accordion3, CustomerLogos2, MapImage, Header2, WhatsappWidget}    

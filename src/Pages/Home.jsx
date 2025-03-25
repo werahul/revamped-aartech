@@ -9,6 +9,7 @@ import {
   OptionsGrid,
   Header2,
   NavbarApi,
+  WhatsappWidget,
 } from "../Components";
 
 import {
@@ -77,6 +78,7 @@ const Home = () => {
         <link rel="canonical" href="https://aartechsolonics.com" />
       </Helmet>
 
+      <WhatsappWidget />
       <Navbar />
       <Header />
       <Header2 />

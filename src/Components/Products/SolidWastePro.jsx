@@ -84,12 +84,12 @@ const SolidWastePro = () => {
                 vital role in waste management, ensuring the safe disposal of
                 general waste and sanitary items at high temperatures.
               </div>
-              <div className="flex items-center lg:mt-auto mt-12 cursor-pointer">
+              {/*<div className="flex items-center lg:mt-auto mt-12 cursor-pointer">
                 <img src={download} alt="download" />
                 <div className="text-foot-blue hover:text-box-red lg:text-lg text-base font-bold font-Barlow tracking-wider ml-[10px]">
                   DOWNLOAD BROCHURE
                 </div>
-              </div>
+              </div>*/}
             </div>
           </div>
         </div>

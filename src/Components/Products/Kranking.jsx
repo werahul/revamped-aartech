@@ -114,12 +114,12 @@ const Kranking = () => {
                 55°C. This remarkable performance substantially elevates the
                 reliability of engine-cranking systems.{" "}
               </div>
-              <div className="flex items-center lg:mt-auto mt-12 cursor-pointer">
+              {/*<div className="flex items-center lg:mt-auto mt-12 cursor-pointer">
                 <img src={download} alt="download" />
                 <div className="text-foot-blue hover:text-box-red lg:text-lg text-base font-bold font-Barlow tracking-wider ml-[10px]">
                   DOWNLOAD BROCHURE
                 </div>
-              </div>
+              </div>*/}
             </div>
           </div>
         </div>

@@ -3,4 +3,4 @@ User-agent: *
 
 
 # Link to the sitemap
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://aartech-core.netlify.app/sitemap.xml

@@ -165,11 +165,7 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <meta
-          name="title"
-          content="Let’s Connect"
-          data-react-helmet="true"
-        />
+        <meta name="title" content="Let’s Connect" data-react-helmet="true" />
         <meta
           name="description"
           content="Reach out for expert solutions in power, automation, and technology innovation."
@@ -289,21 +285,26 @@ const Contact = () => {
                   </li>
                 </a>
 
-                <a href="tel:+917552463593">
+                {/* <a href="tel:+917552463593">
                   <li className="font-Barlow lg:text-[20px] my-4 text-foot-blue">
                     Tel:+91-755-2463593/{" "}
                     <a href="tel:+917554276335">
                       <span>4276335 </span>
                     </a>{" "}
                   </li>
-                </a>
+                </a>*/}
 
-                <a href="tel: +919752531167 ">
+                {/*<a href="tel: +919752531167 ">
                   <li className="font-Barlow lg:text-[20px] lg:mt-4 mb-0 text-foot-blue">
                     Mob No.+91-9752531167,{" "}
                     <a href="tel:+919993091167">
                       <span>9993091167</span>
                     </a>
+                  </li>
+                </a>*/}
+                <a href="tel:18004199409 ">
+                  <li className="font-Barlow lg:text-[20px] lg:mt-4 mb-0 text-foot-blue">
+                    Toll free no. 18004199409{" "}
                   </li>
                 </a>
               </ul>
@@ -321,7 +322,7 @@ const Contact = () => {
                     Raisen, (M.P.) India 462046
                   </li>
                 </a>
-                <a href="tel:+917480233020">
+                {/*<a href="tel:+917480233020">
                   <li className="font-Barlow lg:text-[20px] my-4 text-foot-blue">
                     Tel: +91-7480-233020
                   </li>
@@ -333,6 +334,12 @@ const Contact = () => {
                       <span>7389905790, </span>
                     </a>
                     <br /> <span>+91-9752531167</span>{" "}
+                  </li>
+                </a>*/}
+
+                <a href="tel:18004199409 ">
+                  <li className="font-Barlow lg:text-[20px] lg:mt-4 mb-0 text-foot-blue">
+                    Toll free no. 18004199409{" "}
                   </li>
                 </a>
               </ul>
@@ -353,9 +360,14 @@ const Contact = () => {
                     Himachal Pradesh (H.P.) 173220
                   </li>
                 </a>
-                <a href="tel:+919418509967">
+                {/* <a href="tel:+919418509967">
                   <li className="font-Barlow lg:text-[20px]  text-foot-blue">
                     Tel: +91-9418509967
+                  </li>
+                </a>*/}
+                <a href="tel:18004199409 ">
+                  <li className="font-Barlow lg:text-[20px] lg:mt-4 mb-0 text-foot-blue">
+                    Toll free no. 18004199409{" "}
                   </li>
                 </a>
               </ul>
@@ -367,14 +379,17 @@ const Contact = () => {
             </div>
             <div className="boxContent flex flex-col leading-[26px] lg:space-x-10 font-[400] ">
               <ul className="list-disc  lg:ml-9 ml-6 ">
-                <a href="" target="_blank">
-                  <li className="font-Barlow lg:text-[20px] my-4 w--full text-foot-blue ">
-                    16192 Coastal Highway, Lewes, Delaware 19958, USA
-                  </li>
-                </a>
-                <a href="">
+                <li className="font-Barlow lg:text-[20px] my-4 w--full text-foot-blue ">
+                  16192 Coastal Highway, Lewes, Delaware 19958, USA
+                </li>
+                {/* <a href="">
                   <li className="font-Barlow lg:text-[20px]  text-foot-blue">
                     Tel: +1 213-401-2727
+                  </li>
+                </a>*/}
+                <a href="tel:18004199409 ">
+                  <li className="font-Barlow lg:text-[20px] lg:mt-4 mb-0 text-foot-blue">
+                    Toll free no. 18004199409{" "}
                   </li>
                 </a>
               </ul>
@@ -386,9 +401,13 @@ const Contact = () => {
             </div>
             <div className="boxContent flex flex-col leading-[26px] lg:space-x-10 font-[400] ">
               <ul className="list-disc  lg:ml-9 ml-6 ">
-                <a href="" target="_blank">
-                  <li className="font-Barlow lg:text-[20px] my-4 w--full text-foot-blue ">
-                    71-75 Shelton Street Convent Garden London, United Kingdom
+                <li className="font-Barlow lg:text-[20px] my-4 w--full text-foot-blue ">
+                  71-75 Shelton Street Convent Garden London, United Kingdom
+                </li>
+
+                <a href="tel:18004199409 ">
+                  <li className="font-Barlow lg:text-[20px] lg:mt-4 mb-0 text-foot-blue">
+                    Toll free no. 18004199409{" "}
                   </li>
                 </a>
               </ul>
